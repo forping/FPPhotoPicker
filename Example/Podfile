@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FPPhotoPicker_Example' do
+  pod 'FPPhotoPicker', :path => '../'
+
+  target 'FPPhotoPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
