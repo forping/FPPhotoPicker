@@ -61,10 +61,10 @@
 		7BB624064916605EB58C5583 /* Pods-FPPhotoPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPPhotoPicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FPPhotoPicker_Example/Pods-FPPhotoPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7C15DAE858320575FE251809 /* Pods-FPPhotoPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPPhotoPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FPPhotoPicker_Tests/Pods-FPPhotoPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F24E5078856C8D3FDD01828 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9F24E5078856C8D3FDD01828 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A82EF7EC7EDE0991A7A8C26D /* Pods_FPPhotoPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPPhotoPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6FB02776C646AE6F5D3CDC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C0B6BA189E4C6A8B0FDCF930 /* FPPhotoPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FPPhotoPicker.podspec; path = ../FPPhotoPicker.podspec; sourceTree = "<group>"; };
+		B6FB02776C646AE6F5D3CDC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C0B6BA189E4C6A8B0FDCF930 /* FPPhotoPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FPPhotoPicker.podspec; path = ../FPPhotoPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CDFA14DEFBC536BB462DE9D4 /* Pods_FPPhotoPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPPhotoPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03415DB79A76289AB20EA25 /* Pods-FPPhotoPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPPhotoPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FPPhotoPicker_Tests/Pods-FPPhotoPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -348,12 +348,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FPPhotoPicker_Example/Pods-FPPhotoPicker_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FPPhotoPicker/FPPhotoPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FPPhotoPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
