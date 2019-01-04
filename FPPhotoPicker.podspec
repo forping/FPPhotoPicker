@@ -33,7 +33,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FPPhotoPicker/Classes/**/*'
-  
+  s.resources    = 'FPPhotoPicker/Assets/**/*'
+
   # s.resource_bundles = {
   #   'FPPhotoPicker' => ['FPPhotoPicker/Assets/*.png']
   # }
