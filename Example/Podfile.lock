@@ -1,5 +1,5 @@
 PODS:
-  - FPPhotoPicker (0.1.0):
+  - FPPhotoPicker (0.0.1):
     - Masonry (~> 1.1.0)
   - Masonry (1.1.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FPPhotoPicker: 78c22b7e5d5780742d8e219c6800409f51ca4da7
+  FPPhotoPicker: 50edbcd419befc88852743ffa6ed8fed86964f25
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 5e4c5399985440e6da26f63658d55487facfa949

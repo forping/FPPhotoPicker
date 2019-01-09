@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FPPhotoPicker'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'simple to select image'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
   
-            simple to select image
+            simple to select image, just me use.
   
                        DESC
 
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FPPhotoPicker/Classes/**/*'
-  s.resources    = 'FPPhotoPicker/Assets/**/*'
+  s.resources    = 'FPPhotoPicker/Assets/*'
 
   # s.resource_bundles = {
   #   'FPPhotoPicker' => ['FPPhotoPicker/Assets/*.png']

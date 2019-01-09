@@ -33,7 +33,7 @@
 
 
 /**
- 给定颜色，制造imahe
+ 给定颜色，制造image
 
  @param color <#color description#>
  @return <#return value description#>

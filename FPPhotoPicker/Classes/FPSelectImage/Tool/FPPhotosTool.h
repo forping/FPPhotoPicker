@@ -16,10 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 fp_singleH(FPPhotosTool)
 
 
-// 是否有权限
+// 是否有相册权限
 + (void) hasPhotosAuthorization:(void(^)(BOOL has))block;
 
-
+// 是否有相机权限
++ (void)hasCameraAuthorization:(void(^)(BOOL has))block;
 // 是否有资源
 + (void) systemAlbumHasPtotoWithAssetIdentifier:(NSString *)Identifier has:(void(^)(BOOL has))block;
 
