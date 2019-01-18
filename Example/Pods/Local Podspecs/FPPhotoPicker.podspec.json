@@ -1,8 +1,8 @@
 {
   "name": "FPPhotoPicker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "simple to select image",
-  "description": "simple to select image",
+  "description": "simple to select image, just me use.",
   "homepage": "https://github.com/forping/FPPhotoPicker",
   "license": {
     "type": "MIT",
@@ -13,13 +13,13 @@
   },
   "source": {
     "git": "https://github.com/forping/FPPhotoPicker.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "FPPhotoPicker/Classes/**/*",
-  "resources": "FPPhotoPicker/Assets/**/*",
+  "resources": "FPPhotoPicker/Assets/*",
   "dependencies": {
     "Masonry": [
       "~> 1.1.0"

@@ -7,121 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03440F1A366DEE359080C8A7AE825440 /* FPUnility.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A6F62B704512CFF98461D2BD018275 /* FPUnility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05C8F4EF627AAC7AC7C06ACD6787C580 /* FPPhotosCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 168D2A9A16CFAEC19B00554831D48A75 /* FPPhotosCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06E0CCBC955E69C641B23E3BA3BC20D5 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C3F499DC702C5028EB43C7A9FF20321 /* PHPhotoLibrary+FPPhotoStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF73F1591615AED7F8082161420E150 /* PHPhotoLibrary+FPPhotoStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CC051B6376533A7A548BCDA30FDD738 /* NSBundle+FPPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FA8A92B27CF94AE7F385E83FA7B057 /* NSBundle+FPPhotos.m */; };
-		0F46106D5BDD60FFE36CEB7702FA75D8 /* UIImage+AIRendleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6832DE651245E9EAA452D126E641A5F5 /* UIImage+AIRendleModel.m */; };
-		14283DFB835D6E24C72A19FD6037780A /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
-		178F546C1971F60509D27449307D0A8B /* FPPhotosMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = D62D17AE6A862E744855DB915AEF850F /* FPPhotosMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DB7C4F2DDB9F3CEB7C55DFC84794513 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EBA80FB6FB34E5C162091D1160E3AE7 /* FPPhotosBrowseTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB63DB8264B4E62B25B39BA05F1046 /* FPPhotosBrowseTopView.m */; };
-		1F8CA3BF5649A39AA90766FDD29975AE /* FPPhotosTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B6E7EBCC75E2DEEB68E0B164E0BEE5 /* FPPhotosTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		233908832A5012D4285FCB503E22690D /* NSArray+FPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A0EE47466B680742CEBE144201448 /* NSArray+FPExtension.m */; };
-		270D2763ED30F73A8226B5B4AE390528 /* FPPhotosDataManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF7DDE9D61AD1BAA730223AF0A5035 /* FPPhotosDataManger.m */; };
-		27C1F6084D7158F4C130E0A65495BBFE /* FPPhotosTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D36408B678192C9FE089A81FC6C5E6D /* FPPhotosTool.m */; };
-		2CBC252FF95AFEEAE2FC5461963CC796 /* FPPhotosGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FFF352DC14F890536C05E918577A88 /* FPPhotosGroupController.m */; };
-		2E065CA177FF983375010AC814AC7BD4 /* FPPhotosBrowseDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D63566EBFAE47F4D8D98D03DF8F9DB16 /* FPPhotosBrowseDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31EC77230B3F70DA7113CAB4E2E0D365 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
-		36A08B5A8B7A0118AA2E3B00FAA0B48B /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3756E6C23F6CF85D6D065E566CF3456A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		38D331E1B63EBC4CF5E401550367D78C /* fp_deselect.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CA1540EDD7500AA8FE10B15C8B162B /* fp_deselect.png */; };
-		3AC6D4002796B7E47A0FE96C1F48836C /* fp_video_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E331552A731B4E8C72A08C30ABFACF5 /* fp_video_play.png */; };
-		3BE854669C7ADBFE8749B8FDB51E5403 /* UICollectionViewCell+FPPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD67167D239FF1AAA7EE82A0E24FED3 /* UICollectionViewCell+FPPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E239BF84D3D221B9A7488F3D3A257ED /* FPPhotosMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DAB802DBC0607EBB761E2BD48C7EEA /* FPPhotosMaker.m */; };
+		08639CFF2222A27E4497E2BE2A9F597C /* NSArray+FPExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6B6B2E28C79B537C5FB1D110BD210A /* NSArray+FPExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A14F7023BF5884F59D757A7CF726C75 /* FPPhotosBrowseAllDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A33B5A70BD20627317A639C5363B5B1 /* FPPhotosBrowseAllDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B3E4130833626CE7E0210FC7AFD7D40 /* FPPhotosBrowseTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED77BC4F1ED69440BC217B4801B38D22 /* FPPhotosBrowseTopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BE30D9597A274A7A94F7F16384A41B3 /* NSBundle+FPPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAF904F98097E713439F991D001E2E1 /* NSBundle+FPPhotos.m */; };
+		0EE670D76BAF77783DB1219AFF571F14 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F7000EE8C42DB392A5CC2C55DC240D2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0F840058592388B6FD1F8AF7F59BD039 /* PHFetchResult+FPAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 04085B43BBF455F74F17D54F48EBE732 /* PHFetchResult+FPAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FE0CE7CF11EE2521E472C53706FA33F /* FPPhotosMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 897EE15DC68336AD15E5B66D00E15F98 /* FPPhotosMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFBF60173A95415E3267D83C18668DA /* UICollectionViewCell+FPPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = A44D9359BEC080E51BC250F42E739B69 /* UICollectionViewCell+FPPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198C6B69BAC6F933DF4B3762435F1937 /* NSArray+FPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B9E2B89394AA604595864F9E712A24 /* NSArray+FPExtension.m */; };
+		1A86A0E5251088FC34E4F8775319E52C /* PHAssetCollection+FPPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F8309BB930D9FFAF875817E347CA8537 /* PHAssetCollection+FPPhoto.m */; };
+		1BDD0CCA09EF33E8546DE5C652EFC533 /* FPPhotosSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC66D03BA40665C4AC6B69ACADC98FD /* FPPhotosSelectController.m */; };
+		1C48B57E9924646CCA5CCEB32E32F10E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
+		1CFC015BA153C7077FA5D6E82BEC8840 /* FPPhotosBrowseDataSourceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F2ACBC01B26E9167BE2DD5FA85C128C5 /* FPPhotosBrowseDataSourceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC45CAD4033ACD0CD83A302AD11A47D /* NSString+FPPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C6D30A1787B9A0725C1B842ED814BF /* NSString+FPPhotos.m */; };
+		1F913C54E3206D0B91D6E47817076BF3 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20DEE07CC39C7BA672FB53FDC9748CA1 /* FPPhotosGroupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F47C8D00562186A45DEC651E48CD5C0 /* FPPhotosGroupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A49ECE31B553BEB31D07F04577B41C /* FPPhotosDataManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E52B8D8CB2F00F20F1146F99E3337D5 /* FPPhotosDataManger.m */; };
+		236BCA87262F5578905A12F73328FC41 /* FPPhotosBottomView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FD8F2699BFC747DAFF5BC291C3D38B /* FPPhotosBottomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27339749281D00E338C137987711186D /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		2805A88CC68532D9B80CB4CF03357331 /* PHFetchResult+FPPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F87EA4A36636C8C1CCF20099AC55D2 /* PHFetchResult+FPPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29DFB3833E73A99520DDB25127B8803D /* PHFetchResult+FPAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 952135CB4D64F92107C111709EDE38D7 /* PHFetchResult+FPAsset.m */; };
+		2A5405DDDC756786050DE158569CDDBF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		2A8E294FE6F788FA9B5FAA4193CD557B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
+		2BA08CA1A9255F40912F8843B81F467C /* FPPhotosBrowseDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BADC7346036C716D37A9BA7EABF9A6E /* FPPhotosBrowseDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DB2D92868BBB8B2267A16D7AFEE89A1 /* FPPhotosBrowseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5058EF56381631D2E4B37E0587DEBF2F /* FPPhotosBrowseDataSource.m */; };
+		30F1E76FF0F9D8A7DFCDD2DD351CAF96 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31101D06516FEE070FCFB37FF17B24CA /* FPPhotosBrowseAllDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8706D605388C31A19A6FF3256C3F3EFC /* FPPhotosBrowseAllDataSource.m */; };
+		32A7482CF59155C7F8DC949C4D13212A /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34DF6D666C6736F6D900D9FFF41D49C1 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		34EB0F8D4499F0D88EDC84A05AF8DF46 /* FPPhotosBrowseVideoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B69A06C8AF826464260C51ACEDE0D695 /* FPPhotosBrowseVideoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34ED324020E9BC0A108168F3DBD8F67D /* FPPhotosSelectController.h in Headers */ = {isa = PBXBuildFile; fileRef = 37196E4FBF028D2C70E20C13882C3D19 /* FPPhotosSelectController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F60C3CB581F21B80F36084A8362D96 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37FF777DF118FD3CD5634A007FFF3975 /* FPPhotosConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33413CBACA87DF9D6944CDB20126DEBE /* FPPhotosConfig.m */; };
+		3B5E3AEF0ED68BDD173828FCC02B4017 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		3C1F32A4C4FD66D2C4641109545E572E /* FPPhotosPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A034F9D37017AEDE44D56DF1D31AF3 /* FPPhotosPreviewController.m */; };
+		3C393E726083D036BCBFB391769F2DA5 /* FPPhotosBrowseLiveCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B9ACA0484B14E6CD30BBEEE905A6086D /* FPPhotosBrowseLiveCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D8158050643BF61E4CFB7385E616F28 /* PHPhotoLibrary+FPPhotoStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5686AD9AB1868D1590765C2399BD79CA /* PHPhotoLibrary+FPPhotoStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E60F5C5D90E370A3079DA1912B22348 /* Pods-FPPhotoPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D00E77D5CAF6822CE710C7681901CBEC /* Pods-FPPhotoPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		424C3B5A9EE2D89ED6881FA0CAE2D03A /* fp_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C316EFA1988880A28A6D525529F5182F /* fp_placeholder.png */; };
-		42F7A04651A06EDB267F5C695D878CB0 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		457885B6675AB6615A9BAA98A4D84AF8 /* FPPhotoNotiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8312981AFC1A523AD991D78B2EEF108E /* FPPhotoNotiConfig.m */; };
-		48C098D9E888A365B2600765D63B816D /* NSBundle+FPPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = 0247E74D681A71760135FB4D8A20DF15 /* NSBundle+FPPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49E31556728E7609A1D5B081CF93FA3C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
-		4CD64395A1328F1BBA34D4C4AF932BAD /* FPPhotosSelectController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED2DEC1E7AC666AAE55EA3CBE9237C2 /* FPPhotosSelectController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50DADC3B935AF0E590FF469815727D64 /* FPPhotosBottomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FD80BA0674F22930BAE6200ABAE9D8 /* FPPhotosBottomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5106540DD38E7A28AA27A596E47E4847 /* FPPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E0DE1968ED61523FF5F59A6AFF76EE /* FPPhotosViewController.m */; };
-		58E52B6B6231A892F44FFFC9521678EA /* FPPhotosGroupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA28813EFC167CBC6433D103AE64B9C /* FPPhotosGroupCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CC757ACAEDBE754AD71A2F67688A6DD /* FPPhotosGroupController.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8C114BD8341CA70182FFDF73C31C61 /* FPPhotosGroupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E0AF11EE0001608E9993D0DDF5CBE0F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
-		5F16031BCE79BF4B99F5C13D1A6D5AC3 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F7F5FAF596A64B46476E279C37A201C /* FPPhotosBrowseAllDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B127AD61E6419B8088FD8CBB6BFB16E /* FPPhotosBrowseAllDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61EE89DB416F6D7960184385DB8EA94C /* FPPhotosBrowseImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D99F4104CA7375BDC85452CA63DFBC /* FPPhotosBrowseImageCell.m */; };
-		620DDA30823C145378A7EB221F7A514A /* FPPhotosBrowseController.h in Headers */ = {isa = PBXBuildFile; fileRef = 843643889512FBC7FB51F40DB9AF378C /* FPPhotosBrowseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6235BD6CC025F3B91E035FFD26EB4B74 /* FPPhotoBrowseTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C9A4B7A21F459DA478D7A5FF3594F6 /* FPPhotoBrowseTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		646DD5CBDC2AF04AD8AA58FE5082C7FD /* FPPhotosPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6143DC346F2DB8475D9082492FBC6A99 /* FPPhotosPreviewController.m */; };
-		649AAC39B1716012371EF04564AF628B /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE2556EBAF90DBDE295073486D438E8 /* FPPhotoViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6124758BDC240DDEC3169C989E0F4193 /* FPPhotoViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42D13C4438F15A539E237DB6ED962696 /* FPPhotoNotiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC75BA5094D7252B7401B92E435F8A9 /* FPPhotoNotiConfig.m */; };
+		4712EE109B34FFC0C137F2116BE24A7E /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B50D1B37B6C88386BE5358CAA932D76 /* FPPhotosConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C74FE9951B929F751798C2763C3D10D2 /* FPPhotosConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CFF613CCE71418B6FDD8F9B542E1013 /* FPPhotosBrowseVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47158B86BEF162808A93BEA6007F148B /* FPPhotosBrowseVideoCell.m */; };
+		55CDA836546308F720B8EBD3874DE098 /* FPPhotoBrowseInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E08CF584B3EF851E86F242D41AB5C2 /* FPPhotoBrowseInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5607B10F8AED8F5C57FEF59D30BA346A /* FPPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62F594D2EE6DC2F7DF0EEFB40E13104D /* FPPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56953B2C379C24D4959EFA5086599D1B /* PHAssetCollection+FPPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = A756EAE09A0A5DD5ADCFC3A5E8190D22 /* PHAssetCollection+FPPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59C9AB14ED0FCE79F74CB33B1969CF4F /* FPPhotosBrowseLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9A5506F8B0A12C2F865FD49870FFA /* FPPhotosBrowseLiveCell.m */; };
+		642FC98055A07FF1B20631CF93E1553F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
 		65B4E488EBB3F2344DD06FE273BEEFD8 /* Pods-FPPhotoPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA2CE4D0CFAFDB3715F9CDD4A9B1731 /* Pods-FPPhotoPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6651371A25603B22E87957B8B0FC1E53 /* FPPhotosBrowseLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB663C5627443E2D9DF367EF1833B82E /* FPPhotosBrowseLiveCell.m */; };
-		66E6F40619DC48F44ADF0484218FB7B0 /* fp_bottomSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B4840BF6B64246296451F703168ECE /* fp_bottomSelected.png */; };
-		6A2F33AA3BE08BE3626121A90B225DBD /* NSArray+FPExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A113308F88D07D2ECE393E501E3E2032 /* NSArray+FPExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A7A8D88D6025AA3F772CD03E27195A8 /* FPPhotoBrowseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D40F337B6B57A6DF3605F7B9637C214 /* FPPhotoBrowseTransition.m */; };
-		6F46078B7483F58462927FE61EAC1176 /* PHFetchResult+FPPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF759E798D029D4D8FD92217CB002A2 /* PHFetchResult+FPPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7207A50C97611DAE664E2392BFE606B3 /* NSArray+FPPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = B81C8972ADC692151BD72B68A2401ECE /* NSArray+FPPhotos.m */; };
+		69BB62F8B30BE4A20B99E6EA37C8A1C6 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CBEBC8C61AB1E20009CD6C62120E1E0 /* FPPhotosCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C98339D08380045EDA72B2495A210160 /* FPPhotosCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DEF9AE0B7C926BEC60931913C3C9F72 /* FPPhotosTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 501C50941B60ED241A5B7C8854E572FC /* FPPhotosTool.m */; };
+		716270AEB47BC4899B05CBCC3776F8DD /* FPPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9622976B8372FD97773372E22AF83D58 /* FPPhotoPicker-dummy.m */; };
+		72F031813CF53EA58C60F2BF1FAB8BB4 /* FPPhotoNotiConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 17078CFB48EE96EFE4B71BDB42E81118 /* FPPhotoNotiConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7309793341752D03664737EE47871BC8 /* UIImage+AIRendleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4DB1E638193121D0588ABCD93C1AC9 /* UIImage+AIRendleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7660B03D10566279DEFF7351998173A8 /* Pods-FPPhotoPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DAD08063ED36C36AEBA8BBDFBE3BC /* Pods-FPPhotoPicker_Tests-dummy.m */; };
-		772273E081C292F938A2B11923829058 /* PHFetchResult+FPAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = B95E5CAF32A0287F93F3A63CC45035A4 /* PHFetchResult+FPAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		783DD29FD014033D3A90A9F8C63F32D2 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		78C0A6451CE2CBB8A25DCBDBFEDE84E3 /* PHPhotoLibrary+FPPhotoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B454D6B4A004E84234CCC3FCFA5F26 /* PHPhotoLibrary+FPPhotoStore.m */; };
-		78EE9498D6F93946EA4DE60A3316C1FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7B925E632767FEB267BAEE9F147068 /* UIKit.framework */; };
-		79991BBB33D2190B4701C6D360254729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4872376256524EBC1E900CE2F8861E36 /* Foundation.framework */; };
-		7A0EA3C7DC69DE3DC8FE3FC5EA2A9001 /* UIImage+AIRendleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 245A251367A58E9D4F56165EC4E49F4C /* UIImage+AIRendleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		873BD9220C3A9B7C06151FA17A894C1A /* FPPhotosDataManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB4D12BAE469374B40DD864BE032C63 /* FPPhotosDataManger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87F4687A772925A759BD6625DF1E3E8A /* fp_arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E5BBA193FF53DDBF81819DE2F76585 /* fp_arrow_right.png */; };
-		880C49FE6BEE202E49DFF2F5D2D8E77B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8884D8595A1F232D436FD98FD5809550 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		889FF67685FC0B47C7709B765F721612 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		8CA1A4B875127E82D4FD2168B8F8C11C /* PHFetchResult+FPPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F24756E953C0A9CB0940047C061A0C /* PHFetchResult+FPPhotos.m */; };
-		905CB4E0BA5F7AF6A73641278F35E72A /* NSString+FPPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = 7595464C2C3355402B06C38E27C418BC /* NSString+FPPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9481C5632FBD811D8537852B58017C13 /* FPPhotoBrowseInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7B116DB70377CBCCBDA6102F83AE6A /* FPPhotoBrowseInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9564E0CBAFBF5DFB675245978760AE95 /* UICollectionViewCell+FPPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C976DD9FC08E9996FB0430AD2D82392 /* UICollectionViewCell+FPPhotos.m */; };
-		9609177E91C972FFECFB4F01D378EA7B /* FPPhotosBrowseVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 566B44F3818434EF2E830044B08E932B /* FPPhotosBrowseVideoCell.m */; };
-		994970804DCADE8C449462BEE6CF12C5 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AA81025CA6E3DD5B3237C1B3257DBBA /* FPPhotosBrowseLiveCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4790DAB6B383EF1153BC1208A3E1FD4E /* FPPhotosBrowseLiveCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C611967FFC1E0259E47364774180380 /* FPPhotosConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DE53D1B706E62B6B067E385935FE5DFE /* FPPhotosConfig.m */; };
+		7C3EDB04A26A94AE6C09152CE6F68B9B /* UICollectionView+FPIndexPathsForElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F32D933E0FFD93335786C3D1A4E69C8 /* UICollectionView+FPIndexPathsForElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DFA5BDE0C1DA8A317D4228B57609FC3 /* FPPhotosGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56901FD81E749E5A0B19D1E817A6530C /* FPPhotosGroupController.m */; };
+		7F47EAA4C2C1EC64E305DBE21A3AF28C /* NSArray+FPPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = 9301A31FD316691B9230FF7FA5AD0CA4 /* NSArray+FPPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B29E661ECFE48F41D81A338396A002 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86751A77C2BB0DCD4123BAA1D60EB7BC /* FPPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D83E5BA199469A61C6CE9BF013B580 /* FPPhotosViewController.m */; };
+		8D3D8092498109813835421DFFF3D6F1 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7DE3A3430698FB5A57C245C654EEB1 /* FPPhotosBrowseTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3077F23A05525B5C16F4C4618E9B859 /* FPPhotosBrowseTopView.m */; };
+		8FDD1FC0B57B945DFB72909F32F2A47A /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
+		906A69D9331D382A8455B1D5032ABC01 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		908DCE89580F488F427A7BB4ACCF4571 /* FPPhotosGroupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 86CA5F4183BB1C8F21D6EC0B23878849 /* FPPhotosGroupCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9090CEBA79A616769CC3EA3F7D3C46FC /* FPPhotoBrowseInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E009424479A2FA60B851E5710FE647C /* FPPhotoBrowseInteractiveTransition.m */; };
+		918331EB73C255F9DBFD15FA6A6BA641 /* NSArray+FPPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = D003DAB343507FDC7BEA4C7498AF81D1 /* NSArray+FPPhotos.m */; };
+		9289B6780D3877E539F414F8B5FEFB79 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97991EB618FFB67FE9E9BED752CFB988 /* FPPhotosPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD7B061EDEDCC1C9484063694D7BA49E /* FPPhotosPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99F3131C7616E086DCEAA7A40BDDBC0D /* FPUnility.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A267E6BBCA757AA9F84734EBB916AF /* FPUnility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A6E57BA0EF264B35F0F821559FE6FCD /* NSString+FPPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB0FD4C100DADE25BE78B9496D1FE5B /* NSString+FPPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0C99C708C4CA9C71EB2524BA06FCDDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4872376256524EBC1E900CE2F8861E36 /* Foundation.framework */; };
-		A16A4AEEAD8CFBB92F0A05DC6E8A3530 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		A1F54F0563DC79A57B2A045A54A2F8D0 /* FPPhotosGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA028BDE40807788026036D070277E3 /* FPPhotosGroupCell.m */; };
-		A82D0FF535256B7E7916ABEE32BABB7A /* NSArray+FPPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = D13C37A265086D18CFEBFF178FAC3681 /* NSArray+FPPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A87199A960393E24BB2E711391231E28 /* FPPhotosBrowseDataSourceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E824CC2A541AA017DBCCF027EA121B39 /* FPPhotosBrowseDataSourceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9EA5075D493165963A05599E0F991A9 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
-		ACAEE9D3007BE216DA7AA749C21DDE58 /* FPPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC0205C264B226D3442A19B97FBC50F /* FPPhotoPicker-dummy.m */; };
-		B1C80AC75C2A64FD9C30AB6CC1F4A751 /* FPPhotosBrowseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC9D8BEB3A4412DAE05D5593ABB2EEE /* FPPhotosBrowseDataSource.m */; };
-		B3F026D0026CD6D4C1A924FEFC3FB99C /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B618D938B4D9296EBB2D935ED64DB92E /* fp_browse_back.png in Resources */ = {isa = PBXBuildFile; fileRef = D6600F45DC9CFE7984FC2FCB7FB9844E /* fp_browse_back.png */; };
-		B742AFE147E5ADA335E77E43EB59EECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4872376256524EBC1E900CE2F8861E36 /* Foundation.framework */; };
-		BB241660EFE755C4104150E3FAC95312 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDBF603C4BCC3E8A308776BBE108F970 /* FPPhotosBrowseVideoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1FD3A81F0C72B9EEA0F4970412AA58 /* FPPhotosBrowseVideoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEA61BBF911DC0C1500631AC6B93BC85 /* FPPhotosConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8F834872C92E2423CFCA9FC922F15A /* FPPhotosConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C36EA23734DAC14FA0CF5B477C2FEA25 /* FPPhotosBrowseAllDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA746D5D5A3F0FCAA04D2B3563536F4 /* FPPhotosBrowseAllDataSource.m */; };
-		C550DE60FFDE946C2B64247881D3EF5B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C59CC5016A6868BD65EA5A54D2DBD49B /* FPPhotos.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5C55EC3CBE41329E3393EBBA6AEFBDC7 /* FPPhotos.bundle */; };
-		C65039B39E3FFD9C5CA5C21401D835A3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6EE242F588CABE73B94186E94A09E7C /* FPPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 713F24B6B4B21886616EF46AC5F8BDE6 /* FPPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCC0EB05E0F96D48D54061EB87EEC8AE /* fp_bottomUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB44B04F38F6EBBBF2EC2279FA03116 /* fp_bottomUnselected.png */; };
-		CE4D4A11EA5586B68B970197A9F85D62 /* FPPhotosPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA29C5F88F5DD7B5A0234CB1E9F8A66 /* FPPhotosPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFD6AD2430923705BA7CF8734F8FC0E7 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D132286B9BAD9955831F1C6B8A4FB702 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		D3DC7A8882CE9DF99CE908384F3922C9 /* UICollectionView+FPIndexPathsForElements.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EC0E954AD885CC5AE1127A14EE991A /* UICollectionView+FPIndexPathsForElements.m */; };
-		D45B2496CC4FB4FC8E602A68F74A9A44 /* fp_brower_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 884B54C8BCB8FE4EEC4F303D35B28F92 /* fp_brower_selected.png */; };
-		D57101AD46EED91D748698EDDF20FA5A /* PHAssetCollection+FPPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 828A625C8D04F2368A957BE803664F46 /* PHAssetCollection+FPPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6664288DC1AB2792E96B0F3C8526A15 /* FPPhotoNotiConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 659BBE6A13DA0704ADB1747F3F99A961 /* FPPhotoNotiConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6A9922162DC140FC533D01D63C869BB /* FPPhotosBrowseImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D89B787778E3E6ED5E2AD87BA0C9E02 /* FPPhotosBrowseImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA474A64988F7FF5F6AC7FC51F2A8CF4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		DDFE832A5B819A8AB5EE7D4173FE5BEB /* UICollectionView+FPIndexPathsForElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A3A0F6B14B31E0C9516503893AFE29 /* UICollectionView+FPIndexPathsForElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1DB3AF1DD2EC52329AA481485D4AEAB /* PHFetchResult+FPAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDF51E5465FF2EE53552C33ED049901 /* PHFetchResult+FPAsset.m */; };
+		A1569417FB8DAA7D5AEB41EC639DA395 /* UICollectionView+FPIndexPathsForElements.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B0ED5E31965B64977A454E273BA22B /* UICollectionView+FPIndexPathsForElements.m */; };
+		A37429A12DCE2F19199584D2995DFD49 /* FPPhotosBrowseImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC42B3B66A87F9BF64264C6A02BAE29A /* FPPhotosBrowseImageCell.m */; };
+		A4C59792F9EDE7056AAAEF681BF85862 /* NSBundle+FPPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = B75B1C0F349CA55033E755BCDB1CF567 /* NSBundle+FPPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADC763CC12BD522BAAD84D2FDB0047AE /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4091BE5C99226E6D5177C83E569945B /* FPPhotosBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3486827EC1D3723FF26C04101ECC4743 /* FPPhotosBottomView.m */; };
+		B492761AA2662F5E4CA4E71DF58A2B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4872376256524EBC1E900CE2F8861E36 /* Foundation.framework */; };
+		B4A2E74ABCC4935D466BEA28DEA20BA8 /* UIImage+AIRendleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41806AECCAA5A6F82A89B2DEE8777F79 /* UIImage+AIRendleModel.m */; };
+		B4A9C03F40289CDECD724422D362A9A4 /* FPPhotoBrowseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A8489E2D115937CECDED24A0BF751571 /* FPPhotoBrowseTransition.m */; };
+		B99FEFD5F8AD86A2D27CC0334D29A55D /* FPPhotosBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2D1C4FB54999CFD71F6F05E5D88B2C /* FPPhotosBrowseController.m */; };
+		BA80F65E349BEA155071CB687BCFD907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4872376256524EBC1E900CE2F8861E36 /* Foundation.framework */; };
+		BE68C79A83B5F794166D1105913AD1DA /* FPPhotosBrowseController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0009B093EB16C46A49969154E6D192 /* FPPhotosBrowseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE99CD7E1B46D26260AD58F1CBD75CD4 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF740C95327B72F6C7F6356C3151B004 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7B925E632767FEB267BAEE9F147068 /* UIKit.framework */; };
+		C32D3C61C244263E8BBF1EC569B28935 /* FPPhotosViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF8DA0F36D35E0214E325C4472F7799 /* FPPhotosViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C57600DECBAC9E49AE426E38924CEB32 /* FPPhotosMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E1518669C26E1355C17313C03E6319 /* FPPhotosMaker.m */; };
+		C627246084D276073BDB73DBC37FBFB4 /* PHFetchResult+FPPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = D5999ED4CD75F08ABF124046EC6A636E /* PHFetchResult+FPPhotos.m */; };
+		C7EA29AFCDED92F3886E0F7B78755141 /* FPPhotosBrowseImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9058C9312601CEB979AEA402F593DC9E /* FPPhotosBrowseImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDB3534E02E61102E8340BE8972223BE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		CDC8D037728F6A732259B62A372A7B07 /* FPPhotos.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A6241D30CA18DBF3D6C5DF4B47BD9D8 /* FPPhotos.bundle */; };
+		CE4806BB0103DC949881D40CE72D0C53 /* FPPhotosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BFAADADE292B3ABFEF36547D825F56 /* FPPhotosCell.m */; };
+		D230E03AC64AAB4A65DF151F3B2EFEAB /* FPPhotoBrowseTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD76F44B0BD471A49C26A609043FF7C /* FPPhotoBrowseTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2698F654DC79B89F18125D3FD329369 /* PHPhotoLibrary+FPPhotoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F721106FB2C98CFA67F3CA4BFE833 /* PHPhotoLibrary+FPPhotoStore.m */; };
+		D271E433D23D3F366F92D92BF9D18AEF /* FPPhotosDataManger.h in Headers */ = {isa = PBXBuildFile; fileRef = B96D13BE34DD234E0913540E1039CA53 /* FPPhotosDataManger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8061A2C43027B0F4065E4A028F99EAB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		E043401132516B12FD87032ED41B95F3 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E21356B06E3127AB95ED0EF029BA9458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4872376256524EBC1E900CE2F8861E36 /* Foundation.framework */; };
-		E31138B7226755CF2BE4695D7E0030C8 /* FPPhotosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4FD634F093C82E95DEA1484C4D2031 /* FPPhotosCell.m */; };
-		E3A41E8A8200548650792AFF684F2A24 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E433971DA85DFF08401D309A69354F9D /* FPPhotosBrowseTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2952148B15865C76B70B90A70C6D3BCA /* FPPhotosBrowseTopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5F17CBD1D2F361603E951AD6D81CAAF /* PHAssetCollection+FPPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = DD23C0D496CA61FCF4DDA707A5C6C5C4 /* PHAssetCollection+FPPhoto.m */; };
-		E7CDCCC70144B05F8F1D1121B37D20FD /* FPPhotosBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1015ADC7C023A424AA9F62E15A251C89 /* FPPhotosBrowseController.m */; };
-		E88CA3839762E11A54740C5D82274C72 /* FPPhotosSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245E008261A4FF5DC45A39275B44C888 /* FPPhotosSelectController.m */; };
-		EB93B028EEB6BC3E9CEB5E3F084E52D8 /* FPPhotosViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 20490672FB90B6A42C3164FFE92A21BB /* FPPhotosViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC9B0200A975ECBA393C2CB5AF191CBB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
-		EE62448BB7A513161516A753D0A9B084 /* FPPhotoBrowseInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108135DC898669FFE7F45F65DFB7F96 /* FPPhotoBrowseInteractiveTransition.m */; };
+		E649625C65310F8C0720D0E01BDFCB39 /* FPPhotosTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E9784B5A7674492C54DCFB66BAFA84 /* FPPhotosTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85154CD34A9EE96B1FB5D1827AE8A91 /* UICollectionViewCell+FPPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = B530EB047B3B25D1B10B48E697BFA2E0 /* UICollectionViewCell+FPPhotos.m */; };
+		E93DFAB7C71FED1BC9221DD3D56977C6 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF4A744159390C956BED37E91545DAC1 /* FPPhotosGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE342C715DE3323218CFDB9AD9DDD61B /* FPPhotosGroupCell.m */; };
+		F214E5A7B14C138193DA4A5BB0CFEEE4 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
 		F29F1DF30E588FC01CDC1B55A8E59059 /* Pods-FPPhotoPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6FCDC59DF6FC8BB395463F9C9813BD /* Pods-FPPhotoPicker_Example-dummy.m */; };
-		F2D5910D733B9D9F6CB799828E1D4BF1 /* NSString+FPPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = C1310B6972755C2687B08C3F1D4EEFB0 /* NSString+FPPhotos.m */; };
-		F3379EF7CAD6BA966A0F4B231D543116 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F647CB1CCA4B3A4B796342DAD0D77440 /* FPPhotoViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 047C4D0EA96D99AE927103BABF32DDFA /* FPPhotoViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7A986E04C6AE3FFDA9F136DDEEC3ED5 /* FPPhotosBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B5EACF9D7A0B7BEF64690941D4D1ED /* FPPhotosBottomView.m */; };
+		FAC7950915D544419FD29288BE90AABD /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,21 +121,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D2134F805BC4C8CD972B5DA63EF2E87;
+			remoteGlobalIDString = 4CE5EF1933D353D794CFCDAFB65A36A9;
 			remoteInfo = FPPhotoPicker;
 		};
 		71E648BA88A4B88C3B3571C9EC09D3F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 011C67CCEADA6F84AE75EB12862302EC;
+			remoteGlobalIDString = ECE5373562C0950773840472C7527C3C;
 			remoteInfo = Masonry;
 		};
-		C20AC1F6553872DD34D1842D18440FE7 /* PBXContainerItemProxy */ = {
+		B8DBCC2CE23C402DCA471D8FB9B9DD28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 011C67CCEADA6F84AE75EB12862302EC;
+			remoteGlobalIDString = ECE5373562C0950773840472C7527C3C;
 			remoteInfo = Masonry;
 		};
 		FB98B05014DCD2F3904FC093063C1CD5 /* PBXContainerItemProxy */ = {
@@ -156,148 +148,140 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0247E74D681A71760135FB4D8A20DF15 /* NSBundle+FPPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+FPPhotos.h"; sourceTree = "<group>"; };
-		047C4D0EA96D99AE927103BABF32DDFA /* FPPhotoViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotoViewControllerDelegate.h; sourceTree = "<group>"; };
+		04085B43BBF455F74F17D54F48EBE732 /* PHFetchResult+FPAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHFetchResult+FPAsset.h"; sourceTree = "<group>"; };
 		05522324688194499F7F95C7F16B816B /* Pods-FPPhotoPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FPPhotoPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		0A33B5A70BD20627317A639C5363B5B1 /* FPPhotosBrowseAllDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseAllDataSource.h; sourceTree = "<group>"; };
 		0A7B925E632767FEB267BAEE9F147068 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		0AAB63DB8264B4E62B25B39BA05F1046 /* FPPhotosBrowseTopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseTopView.m; sourceTree = "<group>"; };
-		0B127AD61E6419B8088FD8CBB6BFB16E /* FPPhotosBrowseAllDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseAllDataSource.h; sourceTree = "<group>"; };
-		0CB44B04F38F6EBBBF2EC2279FA03116 /* fp_bottomUnselected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = fp_bottomUnselected.png; sourceTree = "<group>"; };
-		0D36408B678192C9FE089A81FC6C5E6D /* FPPhotosTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosTool.m; sourceTree = "<group>"; };
-		0D7B116DB70377CBCCBDA6102F83AE6A /* FPPhotoBrowseInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotoBrowseInteractiveTransition.h; sourceTree = "<group>"; };
-		1015ADC7C023A424AA9F62E15A251C89 /* FPPhotosBrowseController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseController.m; sourceTree = "<group>"; };
-		11E0DE1968ED61523FF5F59A6AFF76EE /* FPPhotosViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosViewController.m; sourceTree = "<group>"; };
-		14DAB802DBC0607EBB761E2BD48C7EEA /* FPPhotosMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosMaker.m; sourceTree = "<group>"; };
-		168D2A9A16CFAEC19B00554831D48A75 /* FPPhotosCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosCell.h; sourceTree = "<group>"; };
+		124D95BC59E4241F668675047678D817 /* FPPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPPhotoPicker.xcconfig; sourceTree = "<group>"; };
+		17078CFB48EE96EFE4B71BDB42E81118 /* FPPhotoNotiConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotoNotiConfig.h; sourceTree = "<group>"; };
 		194636B3E2CBCBED3D3E588CC2CA46E8 /* Pods-FPPhotoPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FPPhotoPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1BAE255205670DCC426A401557057C6A /* Pods_FPPhotoPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FPPhotoPicker_Example.framework; path = "Pods-FPPhotoPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ED2DEC1E7AC666AAE55EA3CBE9237C2 /* FPPhotosSelectController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosSelectController.h; sourceTree = "<group>"; };
+		1C4DB1E638193121D0588ABCD93C1AC9 /* UIImage+AIRendleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+AIRendleModel.h"; sourceTree = "<group>"; };
+		1CD9A5506F8B0A12C2F865FD49870FFA /* FPPhotosBrowseLiveCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseLiveCell.m; sourceTree = "<group>"; };
+		1D6B6B2E28C79B537C5FB1D110BD210A /* NSArray+FPExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+FPExtension.h"; sourceTree = "<group>"; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		1FA028BDE40807788026036D070277E3 /* FPPhotosGroupCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosGroupCell.m; sourceTree = "<group>"; };
 		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		20490672FB90B6A42C3164FFE92A21BB /* FPPhotosViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosViewController.h; sourceTree = "<group>"; };
-		21FA8A92B27CF94AE7F385E83FA7B057 /* NSBundle+FPPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+FPPhotos.m"; sourceTree = "<group>"; };
-		22B5EACF9D7A0B7BEF64690941D4D1ED /* FPPhotosBottomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBottomView.m; sourceTree = "<group>"; };
+		1FC66D03BA40665C4AC6B69ACADC98FD /* FPPhotosSelectController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosSelectController.m; sourceTree = "<group>"; };
 		22BD949E99812C3508C8EA5972625492 /* Pods_FPPhotoPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FPPhotoPicker_Tests.framework; path = "Pods-FPPhotoPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23B4840BF6B64246296451F703168ECE /* fp_bottomSelected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = fp_bottomSelected.png; sourceTree = "<group>"; };
-		245A251367A58E9D4F56165EC4E49F4C /* UIImage+AIRendleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+AIRendleModel.h"; sourceTree = "<group>"; };
 		245DAD08063ED36C36AEBA8BBDFBE3BC /* Pods-FPPhotoPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FPPhotoPicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		245E008261A4FF5DC45A39275B44C888 /* FPPhotosSelectController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosSelectController.m; sourceTree = "<group>"; };
-		2952148B15865C76B70B90A70C6D3BCA /* FPPhotosBrowseTopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseTopView.h; sourceTree = "<group>"; };
-		2C976DD9FC08E9996FB0430AD2D82392 /* UICollectionViewCell+FPPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+FPPhotos.m"; sourceTree = "<group>"; };
+		2D0009B093EB16C46A49969154E6D192 /* FPPhotosBrowseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseController.h; sourceTree = "<group>"; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2FC75BA5094D7252B7401B92E435F8A9 /* FPPhotoNotiConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotoNotiConfig.m; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		322389BE5F3DCC66C052940AD6354C86 /* Pods-FPPhotoPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FPPhotoPicker_Example-resources.sh"; sourceTree = "<group>"; };
-		33A6F62B704512CFF98461D2BD018275 /* FPUnility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPUnility.h; sourceTree = "<group>"; };
+		33413CBACA87DF9D6944CDB20126DEBE /* FPPhotosConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosConfig.m; sourceTree = "<group>"; };
+		33A034F9D37017AEDE44D56DF1D31AF3 /* FPPhotosPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosPreviewController.m; sourceTree = "<group>"; };
+		3486827EC1D3723FF26C04101ECC4743 /* FPPhotosBottomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBottomView.m; sourceTree = "<group>"; };
+		367BA25E5C28F659057EF04FDF64182B /* FPPhotoPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FPPhotoPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		36CA1540EDD7500AA8FE10B15C8B162B /* fp_deselect.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = fp_deselect.png; sourceTree = "<group>"; };
+		37196E4FBF028D2C70E20C13882C3D19 /* FPPhotosSelectController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosSelectController.h; sourceTree = "<group>"; };
 		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		3935554256874B38D58E590A3A9E4584 /* Pods-FPPhotoPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FPPhotoPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3AA1FF73814F6D15D641C481084957C1 /* FPPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FPPhotoPicker.modulemap; sourceTree = "<group>"; };
-		3C3A0EE47466B680742CEBE144201448 /* NSArray+FPExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FPExtension.m"; sourceTree = "<group>"; };
-		3D40F337B6B57A6DF3605F7B9637C214 /* FPPhotoBrowseTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotoBrowseTransition.m; sourceTree = "<group>"; };
-		3FB4D12BAE469374B40DD864BE032C63 /* FPPhotosDataManger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosDataManger.h; sourceTree = "<group>"; };
-		41B6E7EBCC75E2DEEB68E0B164E0BEE5 /* FPPhotosTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosTool.h; sourceTree = "<group>"; };
-		45FD80BA0674F22930BAE6200ABAE9D8 /* FPPhotosBottomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBottomView.h; sourceTree = "<group>"; };
-		4628C40933ECB443D6B4F2A28E906508 /* FPPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPPhotoPicker.xcconfig; sourceTree = "<group>"; };
+		3A4F721106FB2C98CFA67F3CA4BFE833 /* PHPhotoLibrary+FPPhotoStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHPhotoLibrary+FPPhotoStore.m"; sourceTree = "<group>"; };
+		3A6241D30CA18DBF3D6C5DF4B47BD9D8 /* FPPhotos.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FPPhotos.bundle; path = FPPhotoPicker/Assets/FPPhotos.bundle; sourceTree = "<group>"; };
+		3F32D933E0FFD93335786C3D1A4E69C8 /* UICollectionView+FPIndexPathsForElements.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+FPIndexPathsForElements.h"; sourceTree = "<group>"; };
+		41806AECCAA5A6F82A89B2DEE8777F79 /* UIImage+AIRendleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AIRendleModel.m"; sourceTree = "<group>"; };
+		45B0ED5E31965B64977A454E273BA22B /* UICollectionView+FPIndexPathsForElements.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+FPIndexPathsForElements.m"; sourceTree = "<group>"; };
+		47158B86BEF162808A93BEA6007F148B /* FPPhotosBrowseVideoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseVideoCell.m; sourceTree = "<group>"; };
 		472FA5D94CB14BA8B276E1AB587E346F /* FPPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FPPhotoPicker.framework; path = FPPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4790DAB6B383EF1153BC1208A3E1FD4E /* FPPhotosBrowseLiveCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseLiveCell.h; sourceTree = "<group>"; };
 		4872376256524EBC1E900CE2F8861E36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4EF73F1591615AED7F8082161420E150 /* PHPhotoLibrary+FPPhotoStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHPhotoLibrary+FPPhotoStore.h"; sourceTree = "<group>"; };
+		4E009424479A2FA60B851E5710FE647C /* FPPhotoBrowseInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotoBrowseInteractiveTransition.m; sourceTree = "<group>"; };
+		4F47C8D00562186A45DEC651E48CD5C0 /* FPPhotosGroupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosGroupController.h; sourceTree = "<group>"; };
+		501C50941B60ED241A5B7C8854E572FC /* FPPhotosTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosTool.m; sourceTree = "<group>"; };
+		5058EF56381631D2E4B37E0587DEBF2F /* FPPhotosBrowseDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseDataSource.m; sourceTree = "<group>"; };
 		50786E354768022EB216E20B62E9ED9F /* Pods-FPPhotoPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FPPhotoPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52EE18100D4F3002106E27B57244768F /* FPPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FPPhotoPicker.modulemap; sourceTree = "<group>"; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		566B44F3818434EF2E830044B08E932B /* FPPhotosBrowseVideoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseVideoCell.m; sourceTree = "<group>"; };
+		55F87EA4A36636C8C1CCF20099AC55D2 /* PHFetchResult+FPPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHFetchResult+FPPhotos.h"; sourceTree = "<group>"; };
+		5686AD9AB1868D1590765C2399BD79CA /* PHPhotoLibrary+FPPhotoStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHPhotoLibrary+FPPhotoStore.h"; sourceTree = "<group>"; };
+		56901FD81E749E5A0B19D1E817A6530C /* FPPhotosGroupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosGroupController.m; sourceTree = "<group>"; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		5AC0205C264B226D3442A19B97FBC50F /* FPPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FPPhotoPicker-dummy.m"; sourceTree = "<group>"; };
-		5C55EC3CBE41329E3393EBBA6AEFBDC7 /* FPPhotos.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FPPhotos.bundle; path = FPPhotoPicker/Assets/FPPhotos.bundle; sourceTree = "<group>"; };
-		5F8F834872C92E2423CFCA9FC922F15A /* FPPhotosConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosConfig.h; sourceTree = "<group>"; };
+		5DB0FD4C100DADE25BE78B9496D1FE5B /* NSString+FPPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+FPPhotos.h"; sourceTree = "<group>"; };
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		6143DC346F2DB8475D9082492FBC6A99 /* FPPhotosPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosPreviewController.m; sourceTree = "<group>"; };
+		6124758BDC240DDEC3169C989E0F4193 /* FPPhotoViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotoViewControllerDelegate.h; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		64F24756E953C0A9CB0940047C061A0C /* PHFetchResult+FPPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHFetchResult+FPPhotos.m"; sourceTree = "<group>"; };
-		659BBE6A13DA0704ADB1747F3F99A961 /* FPPhotoNotiConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotoNotiConfig.h; sourceTree = "<group>"; };
-		6832DE651245E9EAA452D126E641A5F5 /* UIImage+AIRendleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AIRendleModel.m"; sourceTree = "<group>"; };
-		68B454D6B4A004E84234CCC3FCFA5F26 /* PHPhotoLibrary+FPPhotoStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHPhotoLibrary+FPPhotoStore.m"; sourceTree = "<group>"; };
+		62F594D2EE6DC2F7DF0EEFB40E13104D /* FPPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
+		63E9784B5A7674492C54DCFB66BAFA84 /* FPPhotosTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosTool.h; sourceTree = "<group>"; };
+		66C6D30A1787B9A0725C1B842ED814BF /* NSString+FPPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+FPPhotos.m"; sourceTree = "<group>"; };
 		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D89B787778E3E6ED5E2AD87BA0C9E02 /* FPPhotosBrowseImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseImageCell.h; sourceTree = "<group>"; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		703D40F0DC7E5B81CC4C2833D3969B0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7108135DC898669FFE7F45F65DFB7F96 /* FPPhotoBrowseInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotoBrowseInteractiveTransition.m; sourceTree = "<group>"; };
-		713F24B6B4B21886616EF46AC5F8BDE6 /* FPPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
-		7595464C2C3355402B06C38E27C418BC /* NSString+FPPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+FPPhotos.h"; sourceTree = "<group>"; };
+		74B9E2B89394AA604595864F9E712A24 /* NSArray+FPExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FPExtension.m"; sourceTree = "<group>"; };
 		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		7ABF7DDE9D61AD1BAA730223AF0A5035 /* FPPhotosDataManger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosDataManger.m; sourceTree = "<group>"; };
+		7BADC7346036C716D37A9BA7EABF9A6E /* FPPhotosBrowseDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseDataSource.h; sourceTree = "<group>"; };
 		7D24D857FE7807DBE839C17EE4730D57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		7FD76F44B0BD471A49C26A609043FF7C /* FPPhotoBrowseTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotoBrowseTransition.h; sourceTree = "<group>"; };
+		814F9375817C4155FFA9899BFAAC3579 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		828A625C8D04F2368A957BE803664F46 /* PHAssetCollection+FPPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHAssetCollection+FPPhoto.h"; sourceTree = "<group>"; };
-		82C9A4B7A21F459DA478D7A5FF3594F6 /* FPPhotoBrowseTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotoBrowseTransition.h; sourceTree = "<group>"; };
-		8312981AFC1A523AD991D78B2EEF108E /* FPPhotoNotiConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotoNotiConfig.m; sourceTree = "<group>"; };
-		843643889512FBC7FB51F40DB9AF378C /* FPPhotosBrowseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseController.h; sourceTree = "<group>"; };
-		884B54C8BCB8FE4EEC4F303D35B28F92 /* fp_brower_selected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = fp_brower_selected.png; sourceTree = "<group>"; };
-		88A3A0F6B14B31E0C9516503893AFE29 /* UICollectionView+FPIndexPathsForElements.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+FPIndexPathsForElements.h"; sourceTree = "<group>"; };
-		8B1FD3A81F0C72B9EEA0F4970412AA58 /* FPPhotosBrowseVideoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseVideoCell.h; sourceTree = "<group>"; };
-		8EC9D8BEB3A4412DAE05D5593ABB2EEE /* FPPhotosBrowseDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseDataSource.m; sourceTree = "<group>"; };
-		8EDF51E5465FF2EE53552C33ED049901 /* PHFetchResult+FPAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHFetchResult+FPAsset.m"; sourceTree = "<group>"; };
+		86CA5F4183BB1C8F21D6EC0B23878849 /* FPPhotosGroupCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosGroupCell.h; sourceTree = "<group>"; };
+		8706D605388C31A19A6FF3256C3F3EFC /* FPPhotosBrowseAllDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseAllDataSource.m; sourceTree = "<group>"; };
+		897EE15DC68336AD15E5B66D00E15F98 /* FPPhotosMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosMaker.h; sourceTree = "<group>"; };
+		8E52B8D8CB2F00F20F1146F99E3337D5 /* FPPhotosDataManger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosDataManger.m; sourceTree = "<group>"; };
+		9058C9312601CEB979AEA402F593DC9E /* FPPhotosBrowseImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseImageCell.h; sourceTree = "<group>"; };
 		907175F84D298BA024FE28CA70227E65 /* Pods-FPPhotoPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPPhotoPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9301A31FD316691B9230FF7FA5AD0CA4 /* NSArray+FPPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+FPPhotos.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		952135CB4D64F92107C111709EDE38D7 /* PHFetchResult+FPAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHFetchResult+FPAsset.m"; sourceTree = "<group>"; };
+		9622976B8372FD97773372E22AF83D58 /* FPPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FPPhotoPicker-dummy.m"; sourceTree = "<group>"; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		99E5BBA193FF53DDBF81819DE2F76585 /* fp_arrow_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = fp_arrow_right.png; sourceTree = "<group>"; };
 		9BA6808DFFBDD60843E5D6FB66C6B4E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E331552A731B4E8C72A08C30ABFACF5 /* fp_video_play.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = fp_video_play.png; sourceTree = "<group>"; };
-		9FA29C5F88F5DD7B5A0234CB1E9F8A66 /* FPPhotosPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosPreviewController.h; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		A113308F88D07D2ECE393E501E3E2032 /* NSArray+FPExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+FPExtension.h"; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		A3FD8F2699BFC747DAFF5BC291C3D38B /* FPPhotosBottomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBottomView.h; sourceTree = "<group>"; };
+		A415DB72F4366D55D679D1F8BED0AD91 /* FPPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
+		A44D9359BEC080E51BC250F42E739B69 /* UICollectionViewCell+FPPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+FPPhotos.h"; sourceTree = "<group>"; };
+		A756EAE09A0A5DD5ADCFC3A5E8190D22 /* PHAssetCollection+FPPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHAssetCollection+FPPhoto.h"; sourceTree = "<group>"; };
 		A8438AACF1B930AE2EACF07CE292A4C2 /* Pods-FPPhotoPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FPPhotoPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AAA28813EFC167CBC6433D103AE64B9C /* FPPhotosGroupCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosGroupCell.h; sourceTree = "<group>"; };
+		A8489E2D115937CECDED24A0BF751571 /* FPPhotoBrowseTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotoBrowseTransition.m; sourceTree = "<group>"; };
 		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		AD7B061EDEDCC1C9484063694D7BA49E /* FPPhotosPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosPreviewController.h; sourceTree = "<group>"; };
 		ADA2CE4D0CFAFDB3715F9CDD4A9B1731 /* Pods-FPPhotoPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FPPhotoPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B0BA35C93A31A78B7D3886A3BC8E6D58 /* Pods-FPPhotoPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FPPhotoPicker_Tests-resources.sh"; sourceTree = "<group>"; };
 		B10D5B08DDED50045DF200ECE5396CC1 /* Pods-FPPhotoPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPPhotoPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1AECCFF448AD4510945DDB4C049C326 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		B34D865ED80C0C8800A89E6B26C06176 /* FPPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
-		B81C8972ADC692151BD72B68A2401ECE /* NSArray+FPPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FPPhotos.m"; sourceTree = "<group>"; };
-		B95E5CAF32A0287F93F3A63CC45035A4 /* PHFetchResult+FPAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHFetchResult+FPAsset.h"; sourceTree = "<group>"; };
-		C1310B6972755C2687B08C3F1D4EEFB0 /* NSString+FPPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+FPPhotos.m"; sourceTree = "<group>"; };
-		C316EFA1988880A28A6D525529F5182F /* fp_placeholder.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = fp_placeholder.png; sourceTree = "<group>"; };
+		B1E08CF584B3EF851E86F242D41AB5C2 /* FPPhotoBrowseInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotoBrowseInteractiveTransition.h; sourceTree = "<group>"; };
+		B530EB047B3B25D1B10B48E697BFA2E0 /* UICollectionViewCell+FPPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+FPPhotos.m"; sourceTree = "<group>"; };
+		B69A06C8AF826464260C51ACEDE0D695 /* FPPhotosBrowseVideoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseVideoCell.h; sourceTree = "<group>"; };
+		B75B1C0F349CA55033E755BCDB1CF567 /* NSBundle+FPPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+FPPhotos.h"; sourceTree = "<group>"; };
+		B96D13BE34DD234E0913540E1039CA53 /* FPPhotosDataManger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosDataManger.h; sourceTree = "<group>"; };
+		B9ACA0484B14E6CD30BBEEE905A6086D /* FPPhotosBrowseLiveCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseLiveCell.h; sourceTree = "<group>"; };
+		BC42B3B66A87F9BF64264C6A02BAE29A /* FPPhotosBrowseImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseImageCell.m; sourceTree = "<group>"; };
+		BFF8DA0F36D35E0214E325C4472F7799 /* FPPhotosViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosViewController.h; sourceTree = "<group>"; };
 		C3A169B8FEE9315D6B51EE7EA4B5C73F /* Pods-FPPhotoPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FPPhotoPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		C74FE9951B929F751798C2763C3D10D2 /* FPPhotosConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosConfig.h; sourceTree = "<group>"; };
+		C7E1518669C26E1355C17313C03E6319 /* FPPhotosMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosMaker.m; sourceTree = "<group>"; };
+		C8BFAADADE292B3ABFEF36547D825F56 /* FPPhotosCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosCell.m; sourceTree = "<group>"; };
+		C98339D08380045EDA72B2495A210160 /* FPPhotosCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosCell.h; sourceTree = "<group>"; };
 		CA6FCDC59DF6FC8BB395463F9C9813BD /* Pods-FPPhotoPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FPPhotoPicker_Example-dummy.m"; sourceTree = "<group>"; };
-		CDD67167D239FF1AAA7EE82A0E24FED3 /* UICollectionViewCell+FPPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+FPPhotos.h"; sourceTree = "<group>"; };
+		CE342C715DE3323218CFDB9AD9DDD61B /* FPPhotosGroupCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosGroupCell.m; sourceTree = "<group>"; };
+		CF2D1C4FB54999CFD71F6F05E5D88B2C /* FPPhotosBrowseController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseController.m; sourceTree = "<group>"; };
+		D003DAB343507FDC7BEA4C7498AF81D1 /* NSArray+FPPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FPPhotos.m"; sourceTree = "<group>"; };
 		D00E77D5CAF6822CE710C7681901CBEC /* Pods-FPPhotoPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FPPhotoPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		D13C37A265086D18CFEBFF178FAC3681 /* NSArray+FPPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+FPPhotos.h"; sourceTree = "<group>"; };
 		D28FDB499AF4AC6179E36707FD9776CA /* Pods-FPPhotoPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FPPhotoPicker_Example.modulemap"; sourceTree = "<group>"; };
-		D62D17AE6A862E744855DB915AEF850F /* FPPhotosMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosMaker.h; sourceTree = "<group>"; };
-		D63566EBFAE47F4D8D98D03DF8F9DB16 /* FPPhotosBrowseDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseDataSource.h; sourceTree = "<group>"; };
-		D6600F45DC9CFE7984FC2FCB7FB9844E /* fp_browse_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = fp_browse_back.png; sourceTree = "<group>"; };
+		D3077F23A05525B5C16F4C4618E9B859 /* FPPhotosBrowseTopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseTopView.m; sourceTree = "<group>"; };
+		D3D83E5BA199469A61C6CE9BF013B580 /* FPPhotosViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosViewController.m; sourceTree = "<group>"; };
+		D5999ED4CD75F08ABF124046EC6A636E /* PHFetchResult+FPPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHFetchResult+FPPhotos.m"; sourceTree = "<group>"; };
 		D9D16CF502046113EF2E78EE3D545E23 /* Pods-FPPhotoPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPPhotoPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DD23C0D496CA61FCF4DDA707A5C6C5C4 /* PHAssetCollection+FPPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHAssetCollection+FPPhoto.m"; sourceTree = "<group>"; };
-		DD8C114BD8341CA70182FFDF73C31C61 /* FPPhotosGroupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosGroupController.h; sourceTree = "<group>"; };
-		DE53D1B706E62B6B067E385935FE5DFE /* FPPhotosConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosConfig.m; sourceTree = "<group>"; };
-		DEEDD6A74ABE4A8371435CBD0E092D91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E0D99F4104CA7375BDC85452CA63DFBC /* FPPhotosBrowseImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseImageCell.m; sourceTree = "<group>"; };
-		E5FFF352DC14F890536C05E918577A88 /* FPPhotosGroupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosGroupController.m; sourceTree = "<group>"; };
 		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		E824CC2A541AA017DBCCF027EA121B39 /* FPPhotosBrowseDataSourceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseDataSourceDelegate.h; sourceTree = "<group>"; };
-		EB663C5627443E2D9DF367EF1833B82E /* FPPhotosBrowseLiveCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseLiveCell.m; sourceTree = "<group>"; };
-		EC4FD634F093C82E95DEA1484C4D2031 /* FPPhotosCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosCell.m; sourceTree = "<group>"; };
+		EA20565D6288CB3C3A2F21D4D71EE9D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		ED77BC4F1ED69440BC217B4801B38D22 /* FPPhotosBrowseTopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseTopView.h; sourceTree = "<group>"; };
+		EDAF904F98097E713439F991D001E2E1 /* NSBundle+FPPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+FPPhotos.m"; sourceTree = "<group>"; };
+		F0A267E6BBCA757AA9F84734EBB916AF /* FPUnility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPUnility.h; sourceTree = "<group>"; };
+		F2ACBC01B26E9167BE2DD5FA85C128C5 /* FPPhotosBrowseDataSourceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FPPhotosBrowseDataSourceDelegate.h; sourceTree = "<group>"; };
 		F4C8106329D15729D711DB9294BE6311 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7485A91A5D7C9FC4848CD23B0E48428 /* Pods-FPPhotoPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FPPhotoPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F7EC0E954AD885CC5AE1127A14EE991A /* UICollectionView+FPIndexPathsForElements.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+FPIndexPathsForElements.m"; sourceTree = "<group>"; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		F988902D5A6A3BC18A54C7EF26FBA05A /* FPPhotoPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FPPhotoPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FAF759E798D029D4D8FD92217CB002A2 /* PHFetchResult+FPPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHFetchResult+FPPhotos.h"; sourceTree = "<group>"; };
-		FDA746D5D5A3F0FCAA04D2B3563536F4 /* FPPhotosBrowseAllDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FPPhotosBrowseAllDataSource.m; sourceTree = "<group>"; };
+		F8309BB930D9FFAF875817E347CA8537 /* PHAssetCollection+FPPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHAssetCollection+FPPhoto.m"; sourceTree = "<group>"; };
 		FE98586643AEACDE2F8C8598E45169CA /* Pods-FPPhotoPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FPPhotoPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FEFC28737547D7DE81B0C516A539FBE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -311,21 +295,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3E8E6C23C788EB5E82B4378DC5F907B /* Frameworks */ = {
+		619BAE2EAFDCAF8C979A34C6A97A32FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B742AFE147E5ADA335E77E43EB59EECE /* Foundation.framework in Frameworks */,
-				A9EA5075D493165963A05599E0F991A9 /* Masonry.framework in Frameworks */,
+				B492761AA2662F5E4CA4E71DF58A2B2E /* Foundation.framework in Frameworks */,
+				8FDD1FC0B57B945DFB72909F32F2A47A /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACDE06F05483E49DDFEB0944CF82FC91 /* Frameworks */ = {
+		6C2A1E6D7BEC74A44BB3F20701D4B4F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79991BBB33D2190B4701C6D360254729 /* Foundation.framework in Frameworks */,
-				78EE9498D6F93946EA4DE60A3316C1FF /* UIKit.framework in Frameworks */,
+				BA80F65E349BEA155071CB687BCFD907 /* Foundation.framework in Frameworks */,
+				BF740C95327B72F6C7F6356C3151B004 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,14 +324,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		069879640B06BA1C696E12FA4BBC6F9B /* Pod */ = {
+		094396319ADA01E866CDA3F609B299EA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F988902D5A6A3BC18A54C7EF26FBA05A /* FPPhotoPicker.podspec */,
-				DEEDD6A74ABE4A8371435CBD0E092D91 /* LICENSE */,
-				703D40F0DC7E5B81CC4C2833D3969B0E /* README.md */,
+				3A6241D30CA18DBF3D6C5DF4B47BD9D8 /* FPPhotos.bundle */,
 			);
-			name = Pod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		0B72A4970AD9E74A9DB55DB5628B96E1 /* Products */ = {
@@ -361,32 +343,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		12D9664DA3B6AD8866F0FE7F81A9A3EF /* FPPhotos.bundle */ = {
+		1709F4ED68A26156F4B9496F85C91FDB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				99E5BBA193FF53DDBF81819DE2F76585 /* fp_arrow_right.png */,
-				23B4840BF6B64246296451F703168ECE /* fp_bottomSelected.png */,
-				0CB44B04F38F6EBBBF2EC2279FA03116 /* fp_bottomUnselected.png */,
-				884B54C8BCB8FE4EEC4F303D35B28F92 /* fp_brower_selected.png */,
-				D6600F45DC9CFE7984FC2FCB7FB9844E /* fp_browse_back.png */,
-				36CA1540EDD7500AA8FE10B15C8B162B /* fp_deselect.png */,
-				C316EFA1988880A28A6D525529F5182F /* fp_placeholder.png */,
-				9E331552A731B4E8C72A08C30ABFACF5 /* fp_video_play.png */,
+				2D0009B093EB16C46A49969154E6D192 /* FPPhotosBrowseController.h */,
+				CF2D1C4FB54999CFD71F6F05E5D88B2C /* FPPhotosBrowseController.m */,
+				4F47C8D00562186A45DEC651E48CD5C0 /* FPPhotosGroupController.h */,
+				56901FD81E749E5A0B19D1E817A6530C /* FPPhotosGroupController.m */,
+				AD7B061EDEDCC1C9484063694D7BA49E /* FPPhotosPreviewController.h */,
+				33A034F9D37017AEDE44D56DF1D31AF3 /* FPPhotosPreviewController.m */,
+				37196E4FBF028D2C70E20C13882C3D19 /* FPPhotosSelectController.h */,
+				1FC66D03BA40665C4AC6B69ACADC98FD /* FPPhotosSelectController.m */,
+				BFF8DA0F36D35E0214E325C4472F7799 /* FPPhotosViewController.h */,
+				D3D83E5BA199469A61C6CE9BF013B580 /* FPPhotosViewController.m */,
 			);
-			name = FPPhotos.bundle;
-			path = FPPhotoPicker/Assets/FPPhotos.bundle;
-			sourceTree = "<group>";
-		};
-		179FD9F9B4D7782D324259A956835EEB /* Trans */ = {
-			isa = PBXGroup;
-			children = (
-				0D7B116DB70377CBCCBDA6102F83AE6A /* FPPhotoBrowseInteractiveTransition.h */,
-				7108135DC898669FFE7F45F65DFB7F96 /* FPPhotoBrowseInteractiveTransition.m */,
-				82C9A4B7A21F459DA478D7A5FF3594F6 /* FPPhotoBrowseTransition.h */,
-				3D40F337B6B57A6DF3605F7B9637C214 /* FPPhotoBrowseTransition.m */,
-			);
-			name = Trans;
-			path = FPPhotoPicker/Classes/FPSelectImage/Trans;
+			name = Controller;
+			path = FPPhotoPicker/Classes/FPSelectImage/Controller;
 			sourceTree = "<group>";
 		};
 		20F50CD405158D2F9718DC76D51781C4 /* Targets Support Files */ = {
@@ -416,74 +388,49 @@
 			path = "Target Support Files/Pods-FPPhotoPicker_Tests";
 			sourceTree = "<group>";
 		};
-		353704C943FD0E62D6CAFF367F5B68E0 /* Category */ = {
+		35736E125ED37B835E935DC55DC3B530 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				A113308F88D07D2ECE393E501E3E2032 /* NSArray+FPExtension.h */,
-				3C3A0EE47466B680742CEBE144201448 /* NSArray+FPExtension.m */,
-				D13C37A265086D18CFEBFF178FAC3681 /* NSArray+FPPhotos.h */,
-				B81C8972ADC692151BD72B68A2401ECE /* NSArray+FPPhotos.m */,
-				0247E74D681A71760135FB4D8A20DF15 /* NSBundle+FPPhotos.h */,
-				21FA8A92B27CF94AE7F385E83FA7B057 /* NSBundle+FPPhotos.m */,
-				7595464C2C3355402B06C38E27C418BC /* NSString+FPPhotos.h */,
-				C1310B6972755C2687B08C3F1D4EEFB0 /* NSString+FPPhotos.m */,
-				828A625C8D04F2368A957BE803664F46 /* PHAssetCollection+FPPhoto.h */,
-				DD23C0D496CA61FCF4DDA707A5C6C5C4 /* PHAssetCollection+FPPhoto.m */,
-				B95E5CAF32A0287F93F3A63CC45035A4 /* PHFetchResult+FPAsset.h */,
-				8EDF51E5465FF2EE53552C33ED049901 /* PHFetchResult+FPAsset.m */,
-				FAF759E798D029D4D8FD92217CB002A2 /* PHFetchResult+FPPhotos.h */,
-				64F24756E953C0A9CB0940047C061A0C /* PHFetchResult+FPPhotos.m */,
-				4EF73F1591615AED7F8082161420E150 /* PHPhotoLibrary+FPPhotoStore.h */,
-				68B454D6B4A004E84234CCC3FCFA5F26 /* PHPhotoLibrary+FPPhotoStore.m */,
-				88A3A0F6B14B31E0C9516503893AFE29 /* UICollectionView+FPIndexPathsForElements.h */,
-				F7EC0E954AD885CC5AE1127A14EE991A /* UICollectionView+FPIndexPathsForElements.m */,
-				CDD67167D239FF1AAA7EE82A0E24FED3 /* UICollectionViewCell+FPPhotos.h */,
-				2C976DD9FC08E9996FB0430AD2D82392 /* UICollectionViewCell+FPPhotos.m */,
-				245A251367A58E9D4F56165EC4E49F4C /* UIImage+AIRendleModel.h */,
-				6832DE651245E9EAA452D126E641A5F5 /* UIImage+AIRendleModel.m */,
-			);
-			name = Category;
-			path = FPPhotoPicker/Classes/FPSelectImage/Category;
-			sourceTree = "<group>";
-		};
-		3C1F5C7D80FDBB985DD50E1E61367C97 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				41B6E7EBCC75E2DEEB68E0B164E0BEE5 /* FPPhotosTool.h */,
-				0D36408B678192C9FE089A81FC6C5E6D /* FPPhotosTool.m */,
+				63E9784B5A7674492C54DCFB66BAFA84 /* FPPhotosTool.h */,
+				501C50941B60ED241A5B7C8854E572FC /* FPPhotosTool.m */,
 			);
 			name = Tool;
 			path = FPPhotoPicker/Classes/FPSelectImage/Tool;
 			sourceTree = "<group>";
 		};
-		47E8B2433611BF582246E1ED8D488D04 /* DataSource */ = {
+		46E30B4B42F8602FF7EF3DBE9CD79163 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0B127AD61E6419B8088FD8CBB6BFB16E /* FPPhotosBrowseAllDataSource.h */,
-				FDA746D5D5A3F0FCAA04D2B3563536F4 /* FPPhotosBrowseAllDataSource.m */,
-				D63566EBFAE47F4D8D98D03DF8F9DB16 /* FPPhotosBrowseDataSource.h */,
-				8EC9D8BEB3A4412DAE05D5593ABB2EEE /* FPPhotosBrowseDataSource.m */,
+				A3FD8F2699BFC747DAFF5BC291C3D38B /* FPPhotosBottomView.h */,
+				3486827EC1D3723FF26C04101ECC4743 /* FPPhotosBottomView.m */,
+				9058C9312601CEB979AEA402F593DC9E /* FPPhotosBrowseImageCell.h */,
+				BC42B3B66A87F9BF64264C6A02BAE29A /* FPPhotosBrowseImageCell.m */,
+				B9ACA0484B14E6CD30BBEEE905A6086D /* FPPhotosBrowseLiveCell.h */,
+				1CD9A5506F8B0A12C2F865FD49870FFA /* FPPhotosBrowseLiveCell.m */,
+				ED77BC4F1ED69440BC217B4801B38D22 /* FPPhotosBrowseTopView.h */,
+				D3077F23A05525B5C16F4C4618E9B859 /* FPPhotosBrowseTopView.m */,
+				B69A06C8AF826464260C51ACEDE0D695 /* FPPhotosBrowseVideoCell.h */,
+				47158B86BEF162808A93BEA6007F148B /* FPPhotosBrowseVideoCell.m */,
+				C98339D08380045EDA72B2495A210160 /* FPPhotosCell.h */,
+				C8BFAADADE292B3ABFEF36547D825F56 /* FPPhotosCell.m */,
+				86CA5F4183BB1C8F21D6EC0B23878849 /* FPPhotosGroupCell.h */,
+				CE342C715DE3323218CFDB9AD9DDD61B /* FPPhotosGroupCell.m */,
 			);
-			name = DataSource;
-			path = FPPhotoPicker/Classes/FPSelectImage/DataSource;
+			name = View;
+			path = FPPhotoPicker/Classes/FPSelectImage/View;
 			sourceTree = "<group>";
 		};
-		484AC5C5B1473016C2B7F93D5BF85FAA /* Controller */ = {
+		56025C56BB901FCB4C5E63BFAC18746C /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				843643889512FBC7FB51F40DB9AF378C /* FPPhotosBrowseController.h */,
-				1015ADC7C023A424AA9F62E15A251C89 /* FPPhotosBrowseController.m */,
-				DD8C114BD8341CA70182FFDF73C31C61 /* FPPhotosGroupController.h */,
-				E5FFF352DC14F890536C05E918577A88 /* FPPhotosGroupController.m */,
-				9FA29C5F88F5DD7B5A0234CB1E9F8A66 /* FPPhotosPreviewController.h */,
-				6143DC346F2DB8475D9082492FBC6A99 /* FPPhotosPreviewController.m */,
-				1ED2DEC1E7AC666AAE55EA3CBE9237C2 /* FPPhotosSelectController.h */,
-				245E008261A4FF5DC45A39275B44C888 /* FPPhotosSelectController.m */,
-				20490672FB90B6A42C3164FFE92A21BB /* FPPhotosViewController.h */,
-				11E0DE1968ED61523FF5F59A6AFF76EE /* FPPhotosViewController.m */,
+				17078CFB48EE96EFE4B71BDB42E81118 /* FPPhotoNotiConfig.h */,
+				2FC75BA5094D7252B7401B92E435F8A9 /* FPPhotoNotiConfig.m */,
+				C74FE9951B929F751798C2763C3D10D2 /* FPPhotosConfig.h */,
+				33413CBACA87DF9D6944CDB20126DEBE /* FPPhotosConfig.m */,
+				F0A267E6BBCA757AA9F84734EBB916AF /* FPUnility.h */,
 			);
-			name = Controller;
-			path = FPPhotoPicker/Classes/FPSelectImage/Controller;
+			name = Config;
+			path = FPPhotoPicker/Classes/FPSelectImage/Config;
 			sourceTree = "<group>";
 		};
 		59511511C2B4BC905C933DCC67E365C4 /* Frameworks */ = {
@@ -495,14 +442,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7086084F1221E0134378447244FE3BDE /* Protocol */ = {
+		5CDC15081B4F6E4B3BCB6171F8980337 /* FPPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
-				E824CC2A541AA017DBCCF027EA121B39 /* FPPhotosBrowseDataSourceDelegate.h */,
-				047C4D0EA96D99AE927103BABF32DDFA /* FPPhotoViewControllerDelegate.h */,
+				D189121926AB4FF2CF047639ADCE1053 /* Category */,
+				56025C56BB901FCB4C5E63BFAC18746C /* Config */,
+				1709F4ED68A26156F4B9496F85C91FDB /* Controller */,
+				8EE01BE3422786A253EE3416D2792CF5 /* DataSource */,
+				99741460C31740B9DEEEE908C17AE73F /* Manager */,
+				A5C46B1B7F74E076C756F6F9F0EA7505 /* Pod */,
+				8142F0ECD588D575051F070A16692771 /* Protocol */,
+				094396319ADA01E866CDA3F609B299EA /* Resources */,
+				FA6EA86CD1CA73EF6A3D3E41F601341F /* Support Files */,
+				35736E125ED37B835E935DC55DC3B530 /* Tool */,
+				5F2A40CBA7AE16D3F55E88180D155F2A /* Trans */,
+				46E30B4B42F8602FF7EF3DBE9CD79163 /* View */,
 			);
-			name = Protocol;
-			path = FPPhotoPicker/Classes/FPSelectImage/Protocol;
+			name = FPPhotoPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5F2A40CBA7AE16D3F55E88180D155F2A /* Trans */ = {
+			isa = PBXGroup;
+			children = (
+				B1E08CF584B3EF851E86F242D41AB5C2 /* FPPhotoBrowseInteractiveTransition.h */,
+				4E009424479A2FA60B851E5710FE647C /* FPPhotoBrowseInteractiveTransition.m */,
+				7FD76F44B0BD471A49C26A609043FF7C /* FPPhotoBrowseTransition.h */,
+				A8489E2D115937CECDED24A0BF751571 /* FPPhotoBrowseTransition.m */,
+			);
+			name = Trans;
+			path = FPPhotoPicker/Classes/FPSelectImage/Trans;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -517,26 +486,38 @@
 			);
 			sourceTree = "<group>";
 		};
-		9B74AFDDEFC947FBBD03F0DE67F679DB /* View */ = {
+		8142F0ECD588D575051F070A16692771 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				45FD80BA0674F22930BAE6200ABAE9D8 /* FPPhotosBottomView.h */,
-				22B5EACF9D7A0B7BEF64690941D4D1ED /* FPPhotosBottomView.m */,
-				6D89B787778E3E6ED5E2AD87BA0C9E02 /* FPPhotosBrowseImageCell.h */,
-				E0D99F4104CA7375BDC85452CA63DFBC /* FPPhotosBrowseImageCell.m */,
-				4790DAB6B383EF1153BC1208A3E1FD4E /* FPPhotosBrowseLiveCell.h */,
-				EB663C5627443E2D9DF367EF1833B82E /* FPPhotosBrowseLiveCell.m */,
-				2952148B15865C76B70B90A70C6D3BCA /* FPPhotosBrowseTopView.h */,
-				0AAB63DB8264B4E62B25B39BA05F1046 /* FPPhotosBrowseTopView.m */,
-				8B1FD3A81F0C72B9EEA0F4970412AA58 /* FPPhotosBrowseVideoCell.h */,
-				566B44F3818434EF2E830044B08E932B /* FPPhotosBrowseVideoCell.m */,
-				168D2A9A16CFAEC19B00554831D48A75 /* FPPhotosCell.h */,
-				EC4FD634F093C82E95DEA1484C4D2031 /* FPPhotosCell.m */,
-				AAA28813EFC167CBC6433D103AE64B9C /* FPPhotosGroupCell.h */,
-				1FA028BDE40807788026036D070277E3 /* FPPhotosGroupCell.m */,
+				F2ACBC01B26E9167BE2DD5FA85C128C5 /* FPPhotosBrowseDataSourceDelegate.h */,
+				6124758BDC240DDEC3169C989E0F4193 /* FPPhotoViewControllerDelegate.h */,
 			);
-			name = View;
-			path = FPPhotoPicker/Classes/FPSelectImage/View;
+			name = Protocol;
+			path = FPPhotoPicker/Classes/FPSelectImage/Protocol;
+			sourceTree = "<group>";
+		};
+		8EE01BE3422786A253EE3416D2792CF5 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				0A33B5A70BD20627317A639C5363B5B1 /* FPPhotosBrowseAllDataSource.h */,
+				8706D605388C31A19A6FF3256C3F3EFC /* FPPhotosBrowseAllDataSource.m */,
+				7BADC7346036C716D37A9BA7EABF9A6E /* FPPhotosBrowseDataSource.h */,
+				5058EF56381631D2E4B37E0587DEBF2F /* FPPhotosBrowseDataSource.m */,
+			);
+			name = DataSource;
+			path = FPPhotoPicker/Classes/FPSelectImage/DataSource;
+			sourceTree = "<group>";
+		};
+		99741460C31740B9DEEEE908C17AE73F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B96D13BE34DD234E0913540E1039CA53 /* FPPhotosDataManger.h */,
+				8E52B8D8CB2F00F20F1146F99E3337D5 /* FPPhotosDataManger.m */,
+				897EE15DC68336AD15E5B66D00E15F98 /* FPPhotosMaker.h */,
+				C7E1518669C26E1355C17313C03E6319 /* FPPhotosMaker.m */,
+			);
+			name = Manager;
+			path = FPPhotoPicker/Classes/FPSelectImage/Manager;
 			sourceTree = "<group>";
 		};
 		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
@@ -573,24 +554,14 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		B3E006B4D63367A107CD075CEC762C87 /* FPPhotoPicker */ = {
+		A5C46B1B7F74E076C756F6F9F0EA7505 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				353704C943FD0E62D6CAFF367F5B68E0 /* Category */,
-				D02DD2D86D4E8782FEFF0CDEA8B1E4E5 /* Config */,
-				484AC5C5B1473016C2B7F93D5BF85FAA /* Controller */,
-				47E8B2433611BF582246E1ED8D488D04 /* DataSource */,
-				F76D0F1B5AE85A34652770A242EE5B3B /* Manager */,
-				069879640B06BA1C696E12FA4BBC6F9B /* Pod */,
-				7086084F1221E0134378447244FE3BDE /* Protocol */,
-				BF89B37109FF86F7AFFB1E81BC4BB10F /* Resources */,
-				C0BF77BDFF6E8CB91E44FBC4C55417A8 /* Support Files */,
-				3C1F5C7D80FDBB985DD50E1E61367C97 /* Tool */,
-				179FD9F9B4D7782D324259A956835EEB /* Trans */,
-				9B74AFDDEFC947FBBD03F0DE67F679DB /* View */,
+				367BA25E5C28F659057EF04FDF64182B /* FPPhotoPicker.podspec */,
+				EA20565D6288CB3C3A2F21D4D71EE9D0 /* LICENSE */,
+				B1AECCFF448AD4510945DDB4C049C326 /* README.md */,
 			);
-			name = FPPhotoPicker;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B65609E3749D48D3ED00DEDD66EF27C3 /* iOS */ = {
@@ -602,40 +573,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BF89B37109FF86F7AFFB1E81BC4BB10F /* Resources */ = {
+		D189121926AB4FF2CF047639ADCE1053 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				5C55EC3CBE41329E3393EBBA6AEFBDC7 /* FPPhotos.bundle */,
-				12D9664DA3B6AD8866F0FE7F81A9A3EF /* FPPhotos.bundle */,
+				1D6B6B2E28C79B537C5FB1D110BD210A /* NSArray+FPExtension.h */,
+				74B9E2B89394AA604595864F9E712A24 /* NSArray+FPExtension.m */,
+				9301A31FD316691B9230FF7FA5AD0CA4 /* NSArray+FPPhotos.h */,
+				D003DAB343507FDC7BEA4C7498AF81D1 /* NSArray+FPPhotos.m */,
+				B75B1C0F349CA55033E755BCDB1CF567 /* NSBundle+FPPhotos.h */,
+				EDAF904F98097E713439F991D001E2E1 /* NSBundle+FPPhotos.m */,
+				5DB0FD4C100DADE25BE78B9496D1FE5B /* NSString+FPPhotos.h */,
+				66C6D30A1787B9A0725C1B842ED814BF /* NSString+FPPhotos.m */,
+				A756EAE09A0A5DD5ADCFC3A5E8190D22 /* PHAssetCollection+FPPhoto.h */,
+				F8309BB930D9FFAF875817E347CA8537 /* PHAssetCollection+FPPhoto.m */,
+				04085B43BBF455F74F17D54F48EBE732 /* PHFetchResult+FPAsset.h */,
+				952135CB4D64F92107C111709EDE38D7 /* PHFetchResult+FPAsset.m */,
+				55F87EA4A36636C8C1CCF20099AC55D2 /* PHFetchResult+FPPhotos.h */,
+				D5999ED4CD75F08ABF124046EC6A636E /* PHFetchResult+FPPhotos.m */,
+				5686AD9AB1868D1590765C2399BD79CA /* PHPhotoLibrary+FPPhotoStore.h */,
+				3A4F721106FB2C98CFA67F3CA4BFE833 /* PHPhotoLibrary+FPPhotoStore.m */,
+				3F32D933E0FFD93335786C3D1A4E69C8 /* UICollectionView+FPIndexPathsForElements.h */,
+				45B0ED5E31965B64977A454E273BA22B /* UICollectionView+FPIndexPathsForElements.m */,
+				A44D9359BEC080E51BC250F42E739B69 /* UICollectionViewCell+FPPhotos.h */,
+				B530EB047B3B25D1B10B48E697BFA2E0 /* UICollectionViewCell+FPPhotos.m */,
+				1C4DB1E638193121D0588ABCD93C1AC9 /* UIImage+AIRendleModel.h */,
+				41806AECCAA5A6F82A89B2DEE8777F79 /* UIImage+AIRendleModel.m */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		C0BF77BDFF6E8CB91E44FBC4C55417A8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3AA1FF73814F6D15D641C481084957C1 /* FPPhotoPicker.modulemap */,
-				4628C40933ECB443D6B4F2A28E906508 /* FPPhotoPicker.xcconfig */,
-				5AC0205C264B226D3442A19B97FBC50F /* FPPhotoPicker-dummy.m */,
-				B34D865ED80C0C8800A89E6B26C06176 /* FPPhotoPicker-prefix.pch */,
-				713F24B6B4B21886616EF46AC5F8BDE6 /* FPPhotoPicker-umbrella.h */,
-				FEFC28737547D7DE81B0C516A539FBE8 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FPPhotoPicker";
-			sourceTree = "<group>";
-		};
-		D02DD2D86D4E8782FEFF0CDEA8B1E4E5 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				659BBE6A13DA0704ADB1747F3F99A961 /* FPPhotoNotiConfig.h */,
-				8312981AFC1A523AD991D78B2EEF108E /* FPPhotoNotiConfig.m */,
-				5F8F834872C92E2423CFCA9FC922F15A /* FPPhotosConfig.h */,
-				DE53D1B706E62B6B067E385935FE5DFE /* FPPhotosConfig.m */,
-				33A6F62B704512CFF98461D2BD018275 /* FPUnility.h */,
-			);
-			name = Config;
-			path = FPPhotoPicker/Classes/FPSelectImage/Config;
+			name = Category;
+			path = FPPhotoPicker/Classes/FPSelectImage/Category;
 			sourceTree = "<group>";
 		};
 		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
@@ -673,7 +638,7 @@
 		E10BA7E297574F672AE2BE38DC785DCA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B3E006B4D63367A107CD075CEC762C87 /* FPPhotoPicker */,
+				5CDC15081B4F6E4B3BCB6171F8980337 /* FPPhotoPicker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -686,16 +651,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F76D0F1B5AE85A34652770A242EE5B3B /* Manager */ = {
+		FA6EA86CD1CA73EF6A3D3E41F601341F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3FB4D12BAE469374B40DD864BE032C63 /* FPPhotosDataManger.h */,
-				7ABF7DDE9D61AD1BAA730223AF0A5035 /* FPPhotosDataManger.m */,
-				D62D17AE6A862E744855DB915AEF850F /* FPPhotosMaker.h */,
-				14DAB802DBC0607EBB761E2BD48C7EEA /* FPPhotosMaker.m */,
+				52EE18100D4F3002106E27B57244768F /* FPPhotoPicker.modulemap */,
+				124D95BC59E4241F668675047678D817 /* FPPhotoPicker.xcconfig */,
+				9622976B8372FD97773372E22AF83D58 /* FPPhotoPicker-dummy.m */,
+				A415DB72F4366D55D679D1F8BED0AD91 /* FPPhotoPicker-prefix.pch */,
+				62F594D2EE6DC2F7DF0EEFB40E13104D /* FPPhotoPicker-umbrella.h */,
+				814F9375817C4155FFA9899BFAAC3579 /* Info.plist */,
 			);
-			name = Manager;
-			path = FPPhotoPicker/Classes/FPSelectImage/Manager;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FPPhotoPicker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -709,72 +676,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		488A8C8D578A71EF9499F9FC855B755B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DB7C4F2DDB9F3CEB7C55DFC84794513 /* MASCompositeConstraint.h in Headers */,
-				CFD6AD2430923705BA7CF8734F8FC0E7 /* MASConstraint+Private.h in Headers */,
-				C550DE60FFDE946C2B64247881D3EF5B /* MASConstraint.h in Headers */,
-				994970804DCADE8C449462BEE6CF12C5 /* MASConstraintMaker.h in Headers */,
-				36A08B5A8B7A0118AA2E3B00FAA0B48B /* MASLayoutConstraint.h in Headers */,
-				BB241660EFE755C4104150E3FAC95312 /* Masonry-umbrella.h in Headers */,
-				F3379EF7CAD6BA966A0F4B231D543116 /* Masonry.h in Headers */,
-				42F7A04651A06EDB267F5C695D878CB0 /* MASUtilities.h in Headers */,
-				880C49FE6BEE202E49DFF2F5D2D8E77B /* MASViewAttribute.h in Headers */,
-				8884D8595A1F232D436FD98FD5809550 /* MASViewConstraint.h in Headers */,
-				E3A41E8A8200548650792AFF684F2A24 /* NSArray+MASAdditions.h in Headers */,
-				06E0CCBC955E69C641B23E3BA3BC20D5 /* NSArray+MASShorthandAdditions.h in Headers */,
-				B3F026D0026CD6D4C1A924FEFC3FB99C /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				5F16031BCE79BF4B99F5C13D1A6D5AC3 /* View+MASAdditions.h in Headers */,
-				649AAC39B1716012371EF04564AF628B /* View+MASShorthandAdditions.h in Headers */,
-				C65039B39E3FFD9C5CA5C21401D835A3 /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0462F7C8BBFE73A700C940CB9536258 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9481C5632FBD811D8537852B58017C13 /* FPPhotoBrowseInteractiveTransition.h in Headers */,
-				6235BD6CC025F3B91E035FFD26EB4B74 /* FPPhotoBrowseTransition.h in Headers */,
-				D6664288DC1AB2792E96B0F3C8526A15 /* FPPhotoNotiConfig.h in Headers */,
-				C6EE242F588CABE73B94186E94A09E7C /* FPPhotoPicker-umbrella.h in Headers */,
-				50DADC3B935AF0E590FF469815727D64 /* FPPhotosBottomView.h in Headers */,
-				5F7F5FAF596A64B46476E279C37A201C /* FPPhotosBrowseAllDataSource.h in Headers */,
-				620DDA30823C145378A7EB221F7A514A /* FPPhotosBrowseController.h in Headers */,
-				2E065CA177FF983375010AC814AC7BD4 /* FPPhotosBrowseDataSource.h in Headers */,
-				A87199A960393E24BB2E711391231E28 /* FPPhotosBrowseDataSourceDelegate.h in Headers */,
-				D6A9922162DC140FC533D01D63C869BB /* FPPhotosBrowseImageCell.h in Headers */,
-				9AA81025CA6E3DD5B3237C1B3257DBBA /* FPPhotosBrowseLiveCell.h in Headers */,
-				E433971DA85DFF08401D309A69354F9D /* FPPhotosBrowseTopView.h in Headers */,
-				BDBF603C4BCC3E8A308776BBE108F970 /* FPPhotosBrowseVideoCell.h in Headers */,
-				05C8F4EF627AAC7AC7C06ACD6787C580 /* FPPhotosCell.h in Headers */,
-				BEA61BBF911DC0C1500631AC6B93BC85 /* FPPhotosConfig.h in Headers */,
-				873BD9220C3A9B7C06151FA17A894C1A /* FPPhotosDataManger.h in Headers */,
-				58E52B6B6231A892F44FFFC9521678EA /* FPPhotosGroupCell.h in Headers */,
-				5CC757ACAEDBE754AD71A2F67688A6DD /* FPPhotosGroupController.h in Headers */,
-				178F546C1971F60509D27449307D0A8B /* FPPhotosMaker.h in Headers */,
-				CE4D4A11EA5586B68B970197A9F85D62 /* FPPhotosPreviewController.h in Headers */,
-				4CD64395A1328F1BBA34D4C4AF932BAD /* FPPhotosSelectController.h in Headers */,
-				1F8CA3BF5649A39AA90766FDD29975AE /* FPPhotosTool.h in Headers */,
-				EB93B028EEB6BC3E9CEB5E3F084E52D8 /* FPPhotosViewController.h in Headers */,
-				F647CB1CCA4B3A4B796342DAD0D77440 /* FPPhotoViewControllerDelegate.h in Headers */,
-				03440F1A366DEE359080C8A7AE825440 /* FPUnility.h in Headers */,
-				6A2F33AA3BE08BE3626121A90B225DBD /* NSArray+FPExtension.h in Headers */,
-				A82D0FF535256B7E7916ABEE32BABB7A /* NSArray+FPPhotos.h in Headers */,
-				48C098D9E888A365B2600765D63B816D /* NSBundle+FPPhotos.h in Headers */,
-				905CB4E0BA5F7AF6A73641278F35E72A /* NSString+FPPhotos.h in Headers */,
-				D57101AD46EED91D748698EDDF20FA5A /* PHAssetCollection+FPPhoto.h in Headers */,
-				772273E081C292F938A2B11923829058 /* PHFetchResult+FPAsset.h in Headers */,
-				6F46078B7483F58462927FE61EAC1176 /* PHFetchResult+FPPhotos.h in Headers */,
-				0C3F499DC702C5028EB43C7A9FF20321 /* PHPhotoLibrary+FPPhotoStore.h in Headers */,
-				DDFE832A5B819A8AB5EE7D4173FE5BEB /* UICollectionView+FPIndexPathsForElements.h in Headers */,
-				3BE854669C7ADBFE8749B8FDB51E5403 /* UICollectionViewCell+FPPhotos.h in Headers */,
-				7A0EA3C7DC69DE3DC8FE3FC5EA2A9001 /* UIImage+AIRendleModel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D556222DE275BDF6132E0BFF41DC03B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -783,25 +684,92 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E881C88F038FCBB6579E5319C98EA8A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CDA836546308F720B8EBD3874DE098 /* FPPhotoBrowseInteractiveTransition.h in Headers */,
+				D230E03AC64AAB4A65DF151F3B2EFEAB /* FPPhotoBrowseTransition.h in Headers */,
+				72F031813CF53EA58C60F2BF1FAB8BB4 /* FPPhotoNotiConfig.h in Headers */,
+				5607B10F8AED8F5C57FEF59D30BA346A /* FPPhotoPicker-umbrella.h in Headers */,
+				236BCA87262F5578905A12F73328FC41 /* FPPhotosBottomView.h in Headers */,
+				0A14F7023BF5884F59D757A7CF726C75 /* FPPhotosBrowseAllDataSource.h in Headers */,
+				BE68C79A83B5F794166D1105913AD1DA /* FPPhotosBrowseController.h in Headers */,
+				2BA08CA1A9255F40912F8843B81F467C /* FPPhotosBrowseDataSource.h in Headers */,
+				1CFC015BA153C7077FA5D6E82BEC8840 /* FPPhotosBrowseDataSourceDelegate.h in Headers */,
+				C7EA29AFCDED92F3886E0F7B78755141 /* FPPhotosBrowseImageCell.h in Headers */,
+				3C393E726083D036BCBFB391769F2DA5 /* FPPhotosBrowseLiveCell.h in Headers */,
+				0B3E4130833626CE7E0210FC7AFD7D40 /* FPPhotosBrowseTopView.h in Headers */,
+				34EB0F8D4499F0D88EDC84A05AF8DF46 /* FPPhotosBrowseVideoCell.h in Headers */,
+				6CBEBC8C61AB1E20009CD6C62120E1E0 /* FPPhotosCell.h in Headers */,
+				4B50D1B37B6C88386BE5358CAA932D76 /* FPPhotosConfig.h in Headers */,
+				D271E433D23D3F366F92D92BF9D18AEF /* FPPhotosDataManger.h in Headers */,
+				908DCE89580F488F427A7BB4ACCF4571 /* FPPhotosGroupCell.h in Headers */,
+				20DEE07CC39C7BA672FB53FDC9748CA1 /* FPPhotosGroupController.h in Headers */,
+				0FE0CE7CF11EE2521E472C53706FA33F /* FPPhotosMaker.h in Headers */,
+				97991EB618FFB67FE9E9BED752CFB988 /* FPPhotosPreviewController.h in Headers */,
+				34ED324020E9BC0A108168F3DBD8F67D /* FPPhotosSelectController.h in Headers */,
+				E649625C65310F8C0720D0E01BDFCB39 /* FPPhotosTool.h in Headers */,
+				C32D3C61C244263E8BBF1EC569B28935 /* FPPhotosViewController.h in Headers */,
+				3FE2556EBAF90DBDE295073486D438E8 /* FPPhotoViewControllerDelegate.h in Headers */,
+				99F3131C7616E086DCEAA7A40BDDBC0D /* FPUnility.h in Headers */,
+				08639CFF2222A27E4497E2BE2A9F597C /* NSArray+FPExtension.h in Headers */,
+				7F47EAA4C2C1EC64E305DBE21A3AF28C /* NSArray+FPPhotos.h in Headers */,
+				A4C59792F9EDE7056AAAEF681BF85862 /* NSBundle+FPPhotos.h in Headers */,
+				9A6E57BA0EF264B35F0F821559FE6FCD /* NSString+FPPhotos.h in Headers */,
+				56953B2C379C24D4959EFA5086599D1B /* PHAssetCollection+FPPhoto.h in Headers */,
+				0F840058592388B6FD1F8AF7F59BD039 /* PHFetchResult+FPAsset.h in Headers */,
+				2805A88CC68532D9B80CB4CF03357331 /* PHFetchResult+FPPhotos.h in Headers */,
+				3D8158050643BF61E4CFB7385E616F28 /* PHPhotoLibrary+FPPhotoStore.h in Headers */,
+				7C3EDB04A26A94AE6C09152CE6F68B9B /* UICollectionView+FPIndexPathsForElements.h in Headers */,
+				0FFBF60173A95415E3267D83C18668DA /* UICollectionViewCell+FPPhotos.h in Headers */,
+				7309793341752D03664737EE47871BC8 /* UIImage+AIRendleModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADE5A1F89C73D427C64C6BE84CCC195 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B29E661ECFE48F41D81A338396A002 /* MASCompositeConstraint.h in Headers */,
+				9289B6780D3877E539F414F8B5FEFB79 /* MASConstraint+Private.h in Headers */,
+				BE99CD7E1B46D26260AD58F1CBD75CD4 /* MASConstraint.h in Headers */,
+				FAC7950915D544419FD29288BE90AABD /* MASConstraintMaker.h in Headers */,
+				E93DFAB7C71FED1BC9221DD3D56977C6 /* MASLayoutConstraint.h in Headers */,
+				4712EE109B34FFC0C137F2116BE24A7E /* Masonry-umbrella.h in Headers */,
+				30F1E76FF0F9D8A7DFCDD2DD351CAF96 /* Masonry.h in Headers */,
+				0EE670D76BAF77783DB1219AFF571F14 /* MASUtilities.h in Headers */,
+				69BB62F8B30BE4A20B99E6EA37C8A1C6 /* MASViewAttribute.h in Headers */,
+				8D3D8092498109813835421DFFF3D6F1 /* MASViewConstraint.h in Headers */,
+				32A7482CF59155C7F8DC949C4D13212A /* NSArray+MASAdditions.h in Headers */,
+				37F60C3CB581F21B80F36084A8362D96 /* NSArray+MASShorthandAdditions.h in Headers */,
+				E043401132516B12FD87032ED41B95F3 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				1F913C54E3206D0B91D6E47817076BF3 /* View+MASAdditions.h in Headers */,
+				906A69D9331D382A8455B1D5032ABC01 /* View+MASShorthandAdditions.h in Headers */,
+				ADC763CC12BD522BAAD84D2FDB0047AE /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		011C67CCEADA6F84AE75EB12862302EC /* Masonry */ = {
+		4CE5EF1933D353D794CFCDAFB65A36A9 /* FPPhotoPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54F0B1E873CD6A7F553EC500B9C137B2 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = C2CD20689C24BFF3D3A831C99FCF8FE7 /* Build configuration list for PBXNativeTarget "FPPhotoPicker" */;
 			buildPhases = (
-				488A8C8D578A71EF9499F9FC855B755B /* Headers */,
-				911EDFBD73A1874D7B38BB38EFF2F118 /* Sources */,
-				ACDE06F05483E49DDFEB0944CF82FC91 /* Frameworks */,
-				C8815A87B440BF0C694D30FE2F3D370E /* Resources */,
+				E881C88F038FCBB6579E5319C98EA8A8 /* Headers */,
+				8A83D894C690579E0262079177A829EA /* Sources */,
+				619BAE2EAFDCAF8C979A34C6A97A32FF /* Frameworks */,
+				8D8B4D7307D26A1FE74406EB7186F9DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D6CD125228DDD8F9B0C61D78993EF7FE /* PBXTargetDependency */,
 			);
-			name = Masonry;
-			productName = Masonry;
-			productReference = F4C8106329D15729D711DB9294BE6311 /* Masonry.framework */;
+			name = FPPhotoPicker;
+			productName = FPPhotoPicker;
+			productReference = 472FA5D94CB14BA8B276E1AB587E346F /* FPPhotoPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		514E4210C189270EEBF4D3E4C44C1934 /* Pods-FPPhotoPicker_Tests */ = {
@@ -823,25 +791,6 @@
 			productReference = 22BD949E99812C3508C8EA5972625492 /* Pods_FPPhotoPicker_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6D2134F805BC4C8CD972B5DA63EF2E87 /* FPPhotoPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 09586F0B1E2AE0A20C0B24FE28ED22FA /* Build configuration list for PBXNativeTarget "FPPhotoPicker" */;
-			buildPhases = (
-				A0462F7C8BBFE73A700C940CB9536258 /* Headers */,
-				6B6594BE9AB3C18ED598CD1FEBCF8F60 /* Sources */,
-				A3E8E6C23C788EB5E82B4378DC5F907B /* Frameworks */,
-				8F3FFA228B8C9D59CFBE3D3271190DA6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1F7608DA83AEFE77CDF9886000CA0CE /* PBXTargetDependency */,
-			);
-			name = FPPhotoPicker;
-			productName = FPPhotoPicker;
-			productReference = 472FA5D94CB14BA8B276E1AB587E346F /* FPPhotoPicker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		DDA3763BE1AC1EA1F7C994929252BE10 /* Pods-FPPhotoPicker_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B208D7B57C0EE685FFE286D02462A223 /* Build configuration list for PBXNativeTarget "Pods-FPPhotoPicker_Example" */;
@@ -860,6 +809,24 @@
 			name = "Pods-FPPhotoPicker_Example";
 			productName = "Pods-FPPhotoPicker_Example";
 			productReference = 1BAE255205670DCC426A401557057C6A /* Pods_FPPhotoPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECE5373562C0950773840472C7527C3C /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE62FBCC5D89EABD732E52A3445B737 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				EADE5A1F89C73D427C64C6BE84CCC195 /* Headers */,
+				11E470899B98CC466DEC26209D5A5122 /* Sources */,
+				6C2A1E6D7BEC74A44BB3F20701D4B4F6 /* Frameworks */,
+				823130C82A6CA6E4444DECB9E3C40C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = F4C8106329D15729D711DB9294BE6311 /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -883,8 +850,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D2134F805BC4C8CD972B5DA63EF2E87 /* FPPhotoPicker */,
-				011C67CCEADA6F84AE75EB12862302EC /* Masonry */,
+				4CE5EF1933D353D794CFCDAFB65A36A9 /* FPPhotoPicker */,
+				ECE5373562C0950773840472C7527C3C /* Masonry */,
 				DDA3763BE1AC1EA1F7C994929252BE10 /* Pods-FPPhotoPicker_Example */,
 				514E4210C189270EEBF4D3E4C44C1934 /* Pods-FPPhotoPicker_Tests */,
 			);
@@ -892,30 +859,22 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8F3FFA228B8C9D59CFBE3D3271190DA6 /* Resources */ = {
+		823130C82A6CA6E4444DECB9E3C40C90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F4687A772925A759BD6625DF1E3E8A /* fp_arrow_right.png in Resources */,
-				66E6F40619DC48F44ADF0484218FB7B0 /* fp_bottomSelected.png in Resources */,
-				CCC0EB05E0F96D48D54061EB87EEC8AE /* fp_bottomUnselected.png in Resources */,
-				D45B2496CC4FB4FC8E602A68F74A9A44 /* fp_brower_selected.png in Resources */,
-				B618D938B4D9296EBB2D935ED64DB92E /* fp_browse_back.png in Resources */,
-				38D331E1B63EBC4CF5E401550367D78C /* fp_deselect.png in Resources */,
-				424C3B5A9EE2D89ED6881FA0CAE2D03A /* fp_placeholder.png in Resources */,
-				3AC6D4002796B7E47A0FE96C1F48836C /* fp_video_play.png in Resources */,
-				C59CC5016A6868BD65EA5A54D2DBD49B /* FPPhotos.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8B4D7307D26A1FE74406EB7186F9DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC8D037728F6A732259B62A372A7B07 /* FPPhotos.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B4D916ADC21470058FFF978D5313A2A0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8815A87B440BF0C694D30FE2F3D370E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -940,43 +899,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B6594BE9AB3C18ED598CD1FEBCF8F60 /* Sources */ = {
+		11E470899B98CC466DEC26209D5A5122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE62448BB7A513161516A753D0A9B084 /* FPPhotoBrowseInteractiveTransition.m in Sources */,
-				6A7A8D88D6025AA3F772CD03E27195A8 /* FPPhotoBrowseTransition.m in Sources */,
-				457885B6675AB6615A9BAA98A4D84AF8 /* FPPhotoNotiConfig.m in Sources */,
-				ACAEE9D3007BE216DA7AA749C21DDE58 /* FPPhotoPicker-dummy.m in Sources */,
-				F7A986E04C6AE3FFDA9F136DDEEC3ED5 /* FPPhotosBottomView.m in Sources */,
-				C36EA23734DAC14FA0CF5B477C2FEA25 /* FPPhotosBrowseAllDataSource.m in Sources */,
-				E7CDCCC70144B05F8F1D1121B37D20FD /* FPPhotosBrowseController.m in Sources */,
-				B1C80AC75C2A64FD9C30AB6CC1F4A751 /* FPPhotosBrowseDataSource.m in Sources */,
-				61EE89DB416F6D7960184385DB8EA94C /* FPPhotosBrowseImageCell.m in Sources */,
-				6651371A25603B22E87957B8B0FC1E53 /* FPPhotosBrowseLiveCell.m in Sources */,
-				1EBA80FB6FB34E5C162091D1160E3AE7 /* FPPhotosBrowseTopView.m in Sources */,
-				9609177E91C972FFECFB4F01D378EA7B /* FPPhotosBrowseVideoCell.m in Sources */,
-				E31138B7226755CF2BE4695D7E0030C8 /* FPPhotosCell.m in Sources */,
-				9C611967FFC1E0259E47364774180380 /* FPPhotosConfig.m in Sources */,
-				270D2763ED30F73A8226B5B4AE390528 /* FPPhotosDataManger.m in Sources */,
-				A1F54F0563DC79A57B2A045A54A2F8D0 /* FPPhotosGroupCell.m in Sources */,
-				2CBC252FF95AFEEAE2FC5461963CC796 /* FPPhotosGroupController.m in Sources */,
-				3E239BF84D3D221B9A7488F3D3A257ED /* FPPhotosMaker.m in Sources */,
-				646DD5CBDC2AF04AD8AA58FE5082C7FD /* FPPhotosPreviewController.m in Sources */,
-				E88CA3839762E11A54740C5D82274C72 /* FPPhotosSelectController.m in Sources */,
-				27C1F6084D7158F4C130E0A65495BBFE /* FPPhotosTool.m in Sources */,
-				5106540DD38E7A28AA27A596E47E4847 /* FPPhotosViewController.m in Sources */,
-				233908832A5012D4285FCB503E22690D /* NSArray+FPExtension.m in Sources */,
-				7207A50C97611DAE664E2392BFE606B3 /* NSArray+FPPhotos.m in Sources */,
-				0CC051B6376533A7A548BCDA30FDD738 /* NSBundle+FPPhotos.m in Sources */,
-				F2D5910D733B9D9F6CB799828E1D4BF1 /* NSString+FPPhotos.m in Sources */,
-				E5F17CBD1D2F361603E951AD6D81CAAF /* PHAssetCollection+FPPhoto.m in Sources */,
-				E1DB3AF1DD2EC52329AA481485D4AEAB /* PHFetchResult+FPAsset.m in Sources */,
-				8CA1A4B875127E82D4FD2168B8F8C11C /* PHFetchResult+FPPhotos.m in Sources */,
-				78C0A6451CE2CBB8A25DCBDBFEDE84E3 /* PHPhotoLibrary+FPPhotoStore.m in Sources */,
-				D3DC7A8882CE9DF99CE908384F3922C9 /* UICollectionView+FPIndexPathsForElements.m in Sources */,
-				9564E0CBAFBF5DFB675245978760AE95 /* UICollectionViewCell+FPPhotos.m in Sources */,
-				0F46106D5BDD60FFE36CEB7702FA75D8 /* UIImage+AIRendleModel.m in Sources */,
+				CDB3534E02E61102E8340BE8972223BE /* MASCompositeConstraint.m in Sources */,
+				2A5405DDDC756786050DE158569CDDBF /* MASConstraint.m in Sources */,
+				642FC98055A07FF1B20631CF93E1553F /* MASConstraintMaker.m in Sources */,
+				3B5E3AEF0ED68BDD173828FCC02B4017 /* MASLayoutConstraint.m in Sources */,
+				1C48B57E9924646CCA5CCEB32E32F10E /* Masonry-dummy.m in Sources */,
+				34DF6D666C6736F6D900D9FFF41D49C1 /* MASViewAttribute.m in Sources */,
+				2A8E294FE6F788FA9B5FAA4193CD557B /* MASViewConstraint.m in Sources */,
+				D8061A2C43027B0F4065E4A028F99EAB /* NSArray+MASAdditions.m in Sources */,
+				0F7000EE8C42DB392A5CC2C55DC240D2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				27339749281D00E338C137987711186D /* View+MASAdditions.m in Sources */,
+				F214E5A7B14C138193DA4A5BB0CFEEE4 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -988,21 +925,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		911EDFBD73A1874D7B38BB38EFF2F118 /* Sources */ = {
+		8A83D894C690579E0262079177A829EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16A4AEEAD8CFBB92F0A05DC6E8A3530 /* MASCompositeConstraint.m in Sources */,
-				3756E6C23F6CF85D6D065E566CF3456A /* MASConstraint.m in Sources */,
-				31EC77230B3F70DA7113CAB4E2E0D365 /* MASConstraintMaker.m in Sources */,
-				49E31556728E7609A1D5B081CF93FA3C /* MASLayoutConstraint.m in Sources */,
-				14283DFB835D6E24C72A19FD6037780A /* Masonry-dummy.m in Sources */,
-				D132286B9BAD9955831F1C6B8A4FB702 /* MASViewAttribute.m in Sources */,
-				783DD29FD014033D3A90A9F8C63F32D2 /* MASViewConstraint.m in Sources */,
-				DA474A64988F7FF5F6AC7FC51F2A8CF4 /* NSArray+MASAdditions.m in Sources */,
-				889FF67685FC0B47C7709B765F721612 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				EC9B0200A975ECBA393C2CB5AF191CBB /* View+MASAdditions.m in Sources */,
-				5E0AF11EE0001608E9993D0DDF5CBE0F /* ViewController+MASAdditions.m in Sources */,
+				9090CEBA79A616769CC3EA3F7D3C46FC /* FPPhotoBrowseInteractiveTransition.m in Sources */,
+				B4A9C03F40289CDECD724422D362A9A4 /* FPPhotoBrowseTransition.m in Sources */,
+				42D13C4438F15A539E237DB6ED962696 /* FPPhotoNotiConfig.m in Sources */,
+				716270AEB47BC4899B05CBCC3776F8DD /* FPPhotoPicker-dummy.m in Sources */,
+				B4091BE5C99226E6D5177C83E569945B /* FPPhotosBottomView.m in Sources */,
+				31101D06516FEE070FCFB37FF17B24CA /* FPPhotosBrowseAllDataSource.m in Sources */,
+				B99FEFD5F8AD86A2D27CC0334D29A55D /* FPPhotosBrowseController.m in Sources */,
+				2DB2D92868BBB8B2267A16D7AFEE89A1 /* FPPhotosBrowseDataSource.m in Sources */,
+				A37429A12DCE2F19199584D2995DFD49 /* FPPhotosBrowseImageCell.m in Sources */,
+				59C9AB14ED0FCE79F74CB33B1969CF4F /* FPPhotosBrowseLiveCell.m in Sources */,
+				8F7DE3A3430698FB5A57C245C654EEB1 /* FPPhotosBrowseTopView.m in Sources */,
+				4CFF613CCE71418B6FDD8F9B542E1013 /* FPPhotosBrowseVideoCell.m in Sources */,
+				CE4806BB0103DC949881D40CE72D0C53 /* FPPhotosCell.m in Sources */,
+				37FF777DF118FD3CD5634A007FFF3975 /* FPPhotosConfig.m in Sources */,
+				22A49ECE31B553BEB31D07F04577B41C /* FPPhotosDataManger.m in Sources */,
+				EF4A744159390C956BED37E91545DAC1 /* FPPhotosGroupCell.m in Sources */,
+				7DFA5BDE0C1DA8A317D4228B57609FC3 /* FPPhotosGroupController.m in Sources */,
+				C57600DECBAC9E49AE426E38924CEB32 /* FPPhotosMaker.m in Sources */,
+				3C1F32A4C4FD66D2C4641109545E572E /* FPPhotosPreviewController.m in Sources */,
+				1BDD0CCA09EF33E8546DE5C652EFC533 /* FPPhotosSelectController.m in Sources */,
+				6DEF9AE0B7C926BEC60931913C3C9F72 /* FPPhotosTool.m in Sources */,
+				86751A77C2BB0DCD4123BAA1D60EB7BC /* FPPhotosViewController.m in Sources */,
+				198C6B69BAC6F933DF4B3762435F1937 /* NSArray+FPExtension.m in Sources */,
+				918331EB73C255F9DBFD15FA6A6BA641 /* NSArray+FPPhotos.m in Sources */,
+				0BE30D9597A274A7A94F7F16384A41B3 /* NSBundle+FPPhotos.m in Sources */,
+				1DC45CAD4033ACD0CD83A302AD11A47D /* NSString+FPPhotos.m in Sources */,
+				1A86A0E5251088FC34E4F8775319E52C /* PHAssetCollection+FPPhoto.m in Sources */,
+				29DFB3833E73A99520DDB25127B8803D /* PHFetchResult+FPAsset.m in Sources */,
+				C627246084D276073BDB73DBC37FBFB4 /* PHFetchResult+FPPhotos.m in Sources */,
+				D2698F654DC79B89F18125D3FD329369 /* PHPhotoLibrary+FPPhotoStore.m in Sources */,
+				A1569417FB8DAA7D5AEB41EC639DA395 /* UICollectionView+FPIndexPathsForElements.m in Sources */,
+				E85154CD34A9EE96B1FB5D1827AE8A91 /* UICollectionViewCell+FPPhotos.m in Sources */,
+				B4A2E74ABCC4935D466BEA28DEA20BA8 /* UIImage+AIRendleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1018,55 +977,24 @@
 		4AB785E8525A08430B43CF0B813EA2F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FPPhotoPicker;
-			target = 6D2134F805BC4C8CD972B5DA63EF2E87 /* FPPhotoPicker */;
+			target = 4CE5EF1933D353D794CFCDAFB65A36A9 /* FPPhotoPicker */;
 			targetProxy = 6FA16DA8698F2C8E52DCE727B5385266 /* PBXContainerItemProxy */;
 		};
 		9999294503E79EEBE5E6A128B4D064E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = 011C67CCEADA6F84AE75EB12862302EC /* Masonry */;
+			target = ECE5373562C0950773840472C7527C3C /* Masonry */;
 			targetProxy = 71E648BA88A4B88C3B3571C9EC09D3F2 /* PBXContainerItemProxy */;
 		};
-		E1F7608DA83AEFE77CDF9886000CA0CE /* PBXTargetDependency */ = {
+		D6CD125228DDD8F9B0C61D78993EF7FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = 011C67CCEADA6F84AE75EB12862302EC /* Masonry */;
-			targetProxy = C20AC1F6553872DD34D1842D18440FE7 /* PBXContainerItemProxy */;
+			target = ECE5373562C0950773840472C7527C3C /* Masonry */;
+			targetProxy = B8DBCC2CE23C402DCA471D8FB9B9DD28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3A3047AEA961CB6FA47F6D7D9E720C9F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4628C40933ECB443D6B4F2A28E906508 /* FPPhotoPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FPPhotoPicker/FPPhotoPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FPPhotoPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FPPhotoPicker/FPPhotoPicker.modulemap";
-				PRODUCT_MODULE_NAME = FPPhotoPicker;
-				PRODUCT_NAME = FPPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3B5975D405BD9FAB8A48A17730FDA053 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9D16CF502046113EF2E78EE3D545E23 /* Pods-FPPhotoPicker_Example.debug.xcconfig */;
@@ -1094,6 +1022,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E9A8107DCE7BB0B88AFBB8D70E5DA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124D95BC59E4241F668675047678D817 /* FPPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FPPhotoPicker/FPPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FPPhotoPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FPPhotoPicker/FPPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = FPPhotoPicker;
+				PRODUCT_NAME = FPPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1134,7 +1092,37 @@
 			};
 			name = Release;
 		};
-		4F1C5C94FEA22A154BCA8B68BFFB17FA /* Release */ = {
+		51370DE58F79E7FC45FEC8C8183A6178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71D30F9CDF77677C69147A15FCC85F37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
 			buildSettings = {
@@ -1165,9 +1153,9 @@
 			};
 			name = Release;
 		};
-		81F5674EADF17503654C15BA8045C5F3 /* Debug */ = {
+		769B8A313E36367606528B8AF3DB089A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			baseConfigurationReference = 124D95BC59E4241F668675047678D817 /* FPPhotoPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1178,22 +1166,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FPPhotoPicker/FPPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FPPhotoPicker/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
+				MODULEMAP_FILE = "Target Support Files/FPPhotoPicker/FPPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = FPPhotoPicker;
+				PRODUCT_NAME = FPPhotoPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1256,36 +1245,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		8B5E4F6C3118EE48ABC6926168657BF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4628C40933ECB443D6B4F2A28E906508 /* FPPhotoPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FPPhotoPicker/FPPhotoPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FPPhotoPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FPPhotoPicker/FPPhotoPicker.modulemap";
-				PRODUCT_MODULE_NAME = FPPhotoPicker;
-				PRODUCT_NAME = FPPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1423,15 +1382,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09586F0B1E2AE0A20C0B24FE28ED22FA /* Build configuration list for PBXNativeTarget "FPPhotoPicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B5E4F6C3118EE48ABC6926168657BF4 /* Debug */,
-				3A3047AEA961CB6FA47F6D7D9E720C9F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1FCD1C2D9C964838D75404776FF5E3ED /* Build configuration list for PBXNativeTarget "Pods-FPPhotoPicker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1450,11 +1400,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54F0B1E873CD6A7F553EC500B9C137B2 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		7EE62FBCC5D89EABD732E52A3445B737 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81F5674EADF17503654C15BA8045C5F3 /* Debug */,
-				4F1C5C94FEA22A154BCA8B68BFFB17FA /* Release */,
+				51370DE58F79E7FC45FEC8C8183A6178 /* Debug */,
+				71D30F9CDF77677C69147A15FCC85F37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1464,6 +1414,15 @@
 			buildConfigurations = (
 				3B5975D405BD9FAB8A48A17730FDA053 /* Debug */,
 				D6A7DA998A6BE16075FE24A832B8B9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2CD20689C24BFF3D3A831C99FCF8FE7 /* Build configuration list for PBXNativeTarget "FPPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9A8107DCE7BB0B88AFBB8D70E5DA6F /* Debug */,
+				769B8A313E36367606528B8AF3DB089A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
